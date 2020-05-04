@@ -1,0 +1,68 @@
+.speechInformation {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 200px;
+    height: auto;
+}
+
+.button{
+    padding: 1em;
+    border: 1px black solid;
+    background-color: white;
+    border-radius: 5px;
+    margin: .5em 0px;
+}
+
+.textfield {
+    padding: .5em;
+    border-radius: 5px;
+}
+
+.textInput {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#command {
+    width: 20em;
+    height: 20em;
+}
+
+#class {
+    margin-bottom: 1em;
+    width: 20em;
+}
+
+#save {
+    background-color: rgb(255, 255, 0);
+}
+
+#finish {
+    background-color: rgb(255, 153, 0);
+}
+
+#endSession {
+    background-color: rgb(167, 214, 255);
+}
+
+#listen {
+    background-color: rgb(161, 235, 143);
+}
+
+#stop {
+    background-color: rgb(255, 102, 102);
+}
+
+#statusColor {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 5px;
+}

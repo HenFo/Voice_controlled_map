@@ -1,0 +1,32 @@
+{
+    "actions": [{
+            "tag": "zoomIn",
+            "commands": ["herein zoomen", "geh naeher heran", "zoom naeher", "naeher", "rein", "ran", "vergroessern", "groesser", "genauer"]
+        },
+        {
+            "tag": "zoomOut",
+            "commands": ["heraus zoomen", "geh raus", "zoom heraus", "raus", "verkleinern", "kleiner", "zeig mir mehr", "mehr"]
+        },
+        {
+            "tag": "left",
+            "commands": ["links", "geh nach links", "nach links verschieben", "westen", "nach westen", "richtung westen"]
+        },
+        {
+            "tag": "right",
+            "commands": ["rechts", "geh nach rechts", "nach rechts verschieben", "osten", "nach osten", "richtung osten"]
+        },
+        {
+            "tag": "up",
+            "commands": ["oben", "geh nach oben", "nach oben verschieben", "norden", "nach norden", "richtung norden"]
+        },
+        {
+            "tag": "down",
+            "commands": ["unten", "geh nach unten", "nach unten verschieben", "sueden", "nach sueden", "richtung sueden"]
+        },
+        {
+            "tag": "repeat",
+            "commands": ["nochmal", "wiederholen", "mach das nochmal", "weiter", "etwas weiter", "viel mehr", "mehr", "wieder", "erneut"]
+        }
+
+    ]
+}
