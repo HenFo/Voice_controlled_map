@@ -11,10 +11,17 @@ const ANIMATION_DURATION = 3000;
 
 
 function doStuff() {
-    
+    showMenu()
 
 }
 
+function hideMenu() {
+    $("#menu").css("width", "0em");
+}
+
+function showMenu() {
+    $("#menu").css("width", "15em");
+}
 
 
 

@@ -14,11 +14,18 @@
 
 #menu {
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 10em;
+    top: 50%;
+    left: 1%;
+    height: 95%;
+    width: 0;
+    overflow: hidden;
     text-align: center;
     font-size: x-large;
-    background-color: rgba(127, 255, 212, 0.5);
+    transition: ease-out;
+    transition-duration: 0.5s;
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: translate(0,-50%);
+    border-radius: 1em;
+    box-shadow: 0 0 .5em;
+    z-index: 1;
 }
