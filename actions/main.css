@@ -3,29 +3,53 @@
     top: 0;
     left: 0;
     height: 100%;
-    width: 50%;
+    width: 100%;
 }
 
-#do {
+.do {
     position: absolute;
-    top: 10px;
+    top: 30%;
     right: 10px;
 }
 
-#menu {
+#do1 {
+    transform: translate(0, -110%);
+}
+
+.sidebar {
     position: absolute;
     top: 50%;
-    left: 1%;
+    left: -15.5em;
     height: 95%;
-    width: 0;
+    width: 15em;
     overflow: hidden;
     text-align: center;
     font-size: x-large;
-    transition: ease-out;
+    transition: ease-in-out;
     transition-duration: 0.5s;
     background-color: rgba(255, 255, 255, 0.9);
-    transform: translate(0,-50%);
+    transform: translate(0 ,-50%);
     border-radius: 1em;
     box-shadow: 0 0 .5em;
     z-index: 1;
+}
+
+#searchbar {
+    position: absolute;
+    top: -5em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
+}
+
+#searchInput {
+    width: 20em;
+    height: 2em;
+    font-size: 2em;
+    border-radius: 10px;
+    border-style: none;
+    padding: 0 .5em;
+    box-shadow: 0 0 5px;
 }

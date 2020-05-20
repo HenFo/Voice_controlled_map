@@ -17,10 +17,23 @@
 <body>
 
     <div id="map"></div>
-    <div id="menu">
+    <div id="menu" class="sidebar">
         <p>Menü</p>
     </div>
-    <button onclick="doStuff()" id="do">Do something</button>
+    <div id="results" class="sidebar">
+        <ol id="resultList">
+            <li>Nummer 1</li>
+            <li>Nummer 2</li>
+            <li>Nummer 3</li>
+            <li>Nummer 4</li>
+            <li>Nummer 5</li>
+        </ol>
+    </div>
+    <div id="searchbar">
+        <input type="text" placeholder="Suche..." id="searchInput">
+    </div>
+    <button onclick="doStuff()" class="do" id="do1">Do something</button>
+    <button onclick="doStuff2()" class="do" id="do2">Do something 2</button>
 
 
     <script src="main.js"></script>

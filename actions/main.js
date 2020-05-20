@@ -6,21 +6,49 @@ var map = new mapboxgl.Map({
     zoom: 9 // starting zoom
 });
 
+var compass = new mapboxgl.NavigationControl({
+    showZoom: false,
+    visualizePitch: false
+});
+map.addControl(compass, 'top-right');
 
-const ANIMATION_DURATION = 3000;
+
+
+const ANIMATION_DURATION = 2000;
 
 
 function doStuff() {
-    showMenu()
-
+    showResults();
+}
+function doStuff2() {
+    hideResults();
 }
 
+/*
+MENU NAVIGATION
+*/
+
 function hideMenu() {
-    $("#menu").css("width", "0em");
+    $("#menu").css("left", "-15.5em");
 }
 
 function showMenu() {
-    $("#menu").css("width", "15em");
+    $("#menu").css("left", ".75em");
+}
+function hideResults() {
+    $("#results").css("left", "-15.5em");
+}
+
+function showResults() {
+    $("#results").css("left", ".75em");
+}
+
+function showSearch() {
+    $("#searchbar").css("top", "1em");
+}
+function hideSearch() {
+    $("#searchbar").css("top", "-5em");
+
 }
 
 
@@ -28,6 +56,18 @@ function showMenu() {
 /*
 MAP NAVIGATION
 */
+
+function rotate(bearing) {
+    map.rotateTo(bearing);
+}
+
+function pitch(pitch) {
+    map.easeTo({pitch: pitch});
+}
+
+function resetView() {
+    map.resetNorthPitch({duration: ANIMATION_DURATION});
+}
 
 function up() {
     let bounds = map.getBounds();
