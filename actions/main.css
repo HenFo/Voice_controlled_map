@@ -53,3 +53,7 @@
     padding: 0 .5em;
     box-shadow: 0 0 5px;
 }
+
+li {
+    margin: 1em;
+}

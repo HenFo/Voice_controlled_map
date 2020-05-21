@@ -16,12 +16,28 @@ map.addControl(compass, 'top-right');
 
 const ANIMATION_DURATION = 2000;
 
-
-function doStuff() {
-    showResults();
+/**
+ * sets js to sleep
+ * @param {Number} milliseconds
+ * @see https://www.sitepoint.com/delay-sleep-pause-wait/
+ */
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+
+async function doStuff() {
+    selectResult(1);
+    await sleep(ANIMATION_DURATION);
+    selectResult(3);
+    await sleep(ANIMATION_DURATION);
+    selectResult(2);
+    await sleep(ANIMATION_DURATION);
+    clearSelection();
+}
+
 function doStuff2() {
-    hideResults();
+    showResults();
 }
 
 /*
@@ -35,6 +51,7 @@ function hideMenu() {
 function showMenu() {
     $("#menu").css("left", ".75em");
 }
+
 function hideResults() {
     $("#results").css("left", "-15.5em");
 }
@@ -46,9 +63,19 @@ function showResults() {
 function showSearch() {
     $("#searchbar").css("top", "1em");
 }
+
 function hideSearch() {
     $("#searchbar").css("top", "-5em");
 
+}
+
+function selectResult(number) {
+    clearSelection();
+    $(`#resultList li:nth-child(${number})`).css("background-color", "gray");
+}
+
+function clearSelection() {
+    $("#resultList").children().css("background-color", "unset");
 }
 
 
@@ -62,70 +89,89 @@ function rotate(bearing) {
 }
 
 function pitch(pitch) {
-    map.easeTo({pitch: pitch});
+    map.easeTo({
+        pitch: pitch
+    });
 }
 
 function resetView() {
-    map.resetNorthPitch({duration: ANIMATION_DURATION});
+    map.resetNorthPitch({
+        duration: ANIMATION_DURATION
+    });
 }
 
 function up() {
     let bounds = map.getBounds();
     let newCenter = new mapboxgl.LngLat(bounds.getCenter().lng, bounds.getNorth());
 
-    console.log(bounds);
-    console.log(newCenter);
-    
-    
-
-    map.panTo(newCenter, {duration: ANIMATION_DURATION});
+    map.panTo(newCenter, {
+        duration: ANIMATION_DURATION
+    });
 }
 
 function down() {
     let bounds = map.getBounds();
     let newCenter = new mapboxgl.LngLat(bounds.getCenter().lng, bounds.getSouth());
 
-    map.panTo(newCenter, {duration: ANIMATION_DURATION});
+    map.panTo(newCenter, {
+        duration: ANIMATION_DURATION
+    });
 }
 
 function left() {
     let bounds = map.getBounds();
     let newCenter = new mapboxgl.LngLat(bounds.getWest(), bounds.getCenter().lat);
 
-    map.panTo(newCenter, {duration: ANIMATION_DURATION});
+    map.panTo(newCenter, {
+        duration: ANIMATION_DURATION
+    });
 }
 
 function right() {
     let bounds = map.getBounds();
     let newCenter = new mapboxgl.LngLat(bounds.getEast(), bounds.getCenter().lat);
 
-    map.panTo(newCenter, {duration: ANIMATION_DURATION});
+    map.panTo(newCenter, {
+        duration: ANIMATION_DURATION
+    });
 }
 
 function upRight() {
     let bounds = map.getBounds();
-    map.panTo(bounds.getNorthEast(), {duration: ANIMATION_DURATION})
+    map.panTo(bounds.getNorthEast(), {
+        duration: ANIMATION_DURATION
+    })
 }
 
 function upLeft() {
     let bounds = map.getBounds();
-    map.panTo(bounds.getNorthWest(), {duration: ANIMATION_DURATION})
+    map.panTo(bounds.getNorthWest(), {
+        duration: ANIMATION_DURATION
+    })
 }
 
 function downRight() {
     let bounds = map.getBounds();
-    map.panTo(bounds.getSouthEast(), {duration: ANIMATION_DURATION})
+    map.panTo(bounds.getSouthEast(), {
+        duration: ANIMATION_DURATION
+    })
 }
 
 function downLeft() {
     let bounds = map.getBounds();
-    map.panTo(bounds.getSouthWest(), {duration: ANIMATION_DURATION})
+    map.panTo(bounds.getSouthWest(), {
+        duration: ANIMATION_DURATION
+    })
 }
 
 function zoomIn() {
-    map.zoomIn({duration: ANIMATION_DURATION})
+    map.zoomIn({
+        duration: ANIMATION_DURATION
+    })
 }
 
 function zoomOut() {
-    map.zoomOut({duration: ANIMATION_DURATION})
+    map.zoomOut({
+        duration: ANIMATION_DURATION
+    })
 }
