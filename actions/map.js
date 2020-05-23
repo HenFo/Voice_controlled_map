@@ -1,9 +1,10 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGltYm9kdW1ibyIsImEiOiJjamplN2t4dXYxaDY2M2twOTQzMXNocjc2In0.g9BJj267dR8RBxBBgi2fyQ';
 var map = new mapboxgl.Map({
-    container: 'map', // container id
+    container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
-    center: [-74.5, 40], // starting position
-    zoom: 9 // starting zoom
+    center: [-74.5, 40],
+    zoom: 9,
+    // interactive: false
 });
 
 var compass = new mapboxgl.NavigationControl({
@@ -12,12 +13,15 @@ var compass = new mapboxgl.NavigationControl({
 });
 map.addControl(compass, 'top-right');
 
+var distanceContainer = document.getElementById('distance');
+
 
 
 const ANIMATION_DURATION = 2000;
 
 /**
  * sets js to sleep
+ * function that uses sleep must be declared async
  * @param {Number} milliseconds
  * @see https://www.sitepoint.com/delay-sleep-pause-wait/
  */
@@ -27,17 +31,15 @@ function sleep(ms) {
 
 
 async function doStuff() {
-    selectResult(1);
-    await sleep(ANIMATION_DURATION);
-    selectResult(3);
-    await sleep(ANIMATION_DURATION);
-    selectResult(2);
-    await sleep(ANIMATION_DURATION);
-    clearSelection();
+    activateDistanceMeasurements();
 }
 
 function doStuff2() {
-    showResults();
+    deactivateDistanceMeasurements();
+}
+
+function doStuff3() {
+    setPoint();
 }
 
 /*
@@ -60,6 +62,14 @@ function showResults() {
     $("#results").css("left", ".75em");
 }
 
+function hideHelp() {
+    $("#help").css("left", "-15.5em");
+}
+
+function showHelp() {
+    $("#help").css("left", ".75em");
+}
+
 function showSearch() {
     $("#searchbar").css("top", "1em");
 }
@@ -78,7 +88,144 @@ function clearSelection() {
     $("#resultList").children().css("background-color", "unset");
 }
 
+/*
+MAP MANIPULATION
+*/
+var markers = [];
 
+function addMarker() {
+    let center = map.getCenter();
+    var marker = new mapboxgl.Marker()
+        .setLngLat(center)
+        .addTo(map);
+    markers.push(marker);
+}
+
+function clearMarker() {
+    for (let i = 0; i < markers.length; i++) {
+        markers[i].remove();
+    }
+    markers = [];
+}
+
+
+
+var geojson = {
+    'type': 'FeatureCollection',
+    'features': []
+};
+
+// Used to draw a line between points
+var linestring = {
+    'type': 'Feature',
+    'geometry': {
+        'type': 'LineString',
+        'coordinates': []
+    }
+};
+
+function setPoint() {
+    try {
+        let center = map.getCenter();
+        var point = {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [center.lng, center.lat]
+            },
+            'properties': {
+                'id': String(new Date().getTime())
+            }
+        };
+
+        geojson.features.push(point);
+
+        if (geojson.features.length > 1) {
+            linestring.geometry.coordinates = geojson.features.map(function (
+                point
+            ) {
+                return point.geometry.coordinates;
+            });
+
+            geojson.features.push(linestring);
+
+            // Populate the distanceContainer with total distance
+            var value = document.createElement('pre');
+            value.textContent =
+                'Total distance: ' +
+                turf.length(linestring).toLocaleString() +
+                'km';
+            distanceContainer.appendChild(value);
+        }
+
+        map.getSource('geojson').setData(geojson);
+    } catch(e) {
+        geojson = {
+            'type': 'FeatureCollection',
+            'features': []
+        };
+        
+        linestring = {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'LineString',
+                'coordinates': []
+            }
+        };
+    }
+}
+
+function activateDistanceMeasurements() {
+    map.addSource('geojson', {
+        'type': 'geojson',
+        'data': geojson
+    });
+
+    // Add styles to the map
+    map.addLayer({
+        id: 'measure-points',
+        type: 'circle',
+        source: 'geojson',
+        paint: {
+            'circle-radius': 5,
+            'circle-color': '#000'
+        },
+        filter: ['in', '$type', 'Point']
+    });
+    map.addLayer({
+        id: 'measure-lines',
+        type: 'line',
+        source: 'geojson',
+        layout: {
+            'line-cap': 'round',
+            'line-join': 'round'
+        },
+        paint: {
+            'line-color': '#000',
+            'line-width': 2.5
+        },
+        filter: ['in', '$type', 'LineString']
+    });
+
+}
+
+function deactivateDistanceMeasurements() {
+    map.removeLayer("measure-points");
+    map.removeLayer("measure-lines");
+    map.removeSource("geojson");
+    geojson = {
+        'type': 'FeatureCollection',
+        'features': []
+    }
+    linestring = {
+        'type': 'Feature',
+        'geometry': {
+            'type': 'LineString',
+            'coordinates': []
+        }
+    }
+    distanceContainer.innerHTML = "";
+}
 
 /*
 MAP NAVIGATION

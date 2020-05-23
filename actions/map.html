@@ -17,8 +17,9 @@
 <body>
 
     <div id="map"></div>
+    <div id="centerpoint">+</div>
     <div id="menu" class="sidebar">
-        <p>Menü</p>
+        <h3>Menü</h3>
     </div>
     <div id="results" class="sidebar">
         <ol id="resultList">
@@ -27,13 +28,19 @@
             <li>Aldi</li>
         </ol>
     </div>
+    <div id="help" class="sidebar">
+        <h3>Hilfe</h3>
+    </div>
     <div id="searchbar">
         <input type="text" placeholder="Suche..." id="searchInput">
     </div>
-    <button onclick="doStuff()" class="do" id="do1">Do something</button>
+    <button onclick="doStuff()" class="do" id="do1">Do something 1</button>
     <button onclick="doStuff2()" class="do" id="do2">Do something 2</button>
+    <button onclick="doStuff3()" class="do" id="do3">Do something 3</button>
 
+    <div id="distance" class="distance-container"></div>
 
+    <script src="https://npmcdn.com/@turf/turf@5.1.6/turf.min.js"></script>
     <script src="map.js"></script>
 
 </body>
