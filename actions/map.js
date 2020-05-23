@@ -31,7 +31,7 @@ function sleep(ms) {
 
 
 async function doStuff() {
-    activateDistanceMeasurements();
+    fakeUserLocation();
 }
 
 function doStuff2() {
@@ -91,6 +91,52 @@ function clearSelection() {
 /*
 MAP MANIPULATION
 */
+
+async function fakeUserLocation() {
+    let center = map.getCenter();
+    let zoom = map.getZoom();
+    let coordinates = [-75, 40];
+    let point = {
+        "type": "Point",
+        "coordinates": coordinates
+    };
+    map.addSource('point', {
+        'type': 'geojson',
+        'data': point
+    });
+
+
+    map.addLayer({
+        'id': 'circle',
+        'source': 'point',
+        'type': 'circle',
+        'paint': {
+            'circle-radius': 10,
+            'circle-color': '#0070bf'
+        }
+    });
+
+    var popup = new mapboxgl.Popup({
+            closeOnClick: false
+        })
+        .setLngLat(coordinates)
+        .setHTML('<p>Hier bin ich<p>')
+        .addTo(map);
+
+    map.flyTo({
+        center: coordinates,
+        zoom: 14
+    })
+
+    await sleep(7000);
+    map.removeLayer("circle");
+    map.removeSource("point");
+    popup.remove();
+    map.jumpTo({center: center, zoom:zoom});
+    
+}
+
+
 var markers = [];
 
 function addMarker() {
@@ -109,7 +155,6 @@ function clearMarker() {
 }
 
 
-
 var geojson = {
     'type': 'FeatureCollection',
     'features': []
@@ -124,6 +169,9 @@ var linestring = {
     }
 };
 
+/**
+ * @see https://docs.mapbox.com/mapbox-gl-js/example/measure/
+ */
 function setPoint() {
     try {
         let center = map.getCenter();
@@ -159,12 +207,12 @@ function setPoint() {
         }
 
         map.getSource('geojson').setData(geojson);
-    } catch(e) {
+    } catch (e) {
         geojson = {
             'type': 'FeatureCollection',
             'features': []
         };
-        
+
         linestring = {
             'type': 'Feature',
             'geometry': {
