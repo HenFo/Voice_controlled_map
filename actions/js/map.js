@@ -288,7 +288,8 @@ MAP NAVIGATION
 */
 
 function rotate(bearing) {
-    map.rotateTo(bearing);
+    let curBearing = map.getBearing();
+    map.rotateTo(curBearing + bearing);
 }
 
 function pitch(pitch) {
