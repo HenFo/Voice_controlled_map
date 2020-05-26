@@ -1,0 +1,48 @@
+#accept-reject {
+    background-color: white;
+}
+
+#accept-reject > #text {
+    text-align: center;
+}
+
+#acc {
+    left: 2em;
+    background-color: green;
+}
+
+#rej {
+    right: 2em;
+    background-color: rgb(194, 0, 0);
+}
+
+.popup {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    width: 4em;
+    height: 4em;
+    background-color: aquamarine;
+    font-size: xx-large;
+    border-radius: 100%;
+    transition: 0.5s cubic-bezier(.07,.1,.23,1.46);
+}
+
+.popup > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#negativ {
+    background-color: rgb(194, 0, 0);
+    visibility: hidden;
+}
+
+#positiv {
+    background-color: rgb(0, 128, 0);
+    visibility: hidden;
+}
+
