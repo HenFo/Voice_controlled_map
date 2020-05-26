@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/next_prev.css">
     <link rel="stylesheet" href="css/close.css">
+    <link rel="stylesheet" href="css/accept_reject.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <title>Basic interactions</title>
 </head>
 
@@ -28,6 +32,19 @@
         <img src="images\david-clode-e3irr6H7e5s-unsplash.jpg">
     </div>
 
+    <div id="accept-reject" class="container">
+        <h3 id="text">Benutzerbedingungen</h3>
+        <button id="acc" class="button" onclick="aniAcc()">&#10004;</button>
+        <button id="rej" class="button" onclick="aniRej()">&#10006;</button>
+
+        <div id="positiv" class="popup">
+            <span>&#10004;</span>
+        </div>
+        <div id="negativ" class="popup">
+            <span>&#10006;</span>
+        </div>
+    </div>
+
     <button onclick="doStuff()" id="doStuff">do stuff1</button>
     <button onclick="doStuff2()" id="doStuff2">do stuff2</button>
 
@@ -35,6 +52,8 @@
     <script src="js/next_prev.js"></script>
     <script src="js/basic.js"></script>
     <script src="js/close.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/accept_reject.js"></script>
 </body>
 
 </html>

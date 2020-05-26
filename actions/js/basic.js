@@ -1,18 +1,8 @@
-/**
- * sets js to sleep
- * function that uses sleep must be declared async
- * @param {Number} milliseconds
- * @see https://www.sitepoint.com/delay-sleep-pause-wait/
- */
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
 async function doStuff() {
-    aniClose();
+    aniAcc();
 }
 async function doStuff2() {
-    aniPrev();
+    aniRej();
 }
 
 async function aniNext() {
@@ -40,7 +30,6 @@ async function aniPrev() {
 
 async function aniClose() {
     let button = document.getElementById("closeIcon");
-    let card = document.getElementById("close")
 
     await sleep(300);
     button.style.textShadow = "0 0 10px rgb(70, 144, 255)";
@@ -51,4 +40,33 @@ async function aniClose() {
     openCard();
     button.style.textShadow = "";
     button.style.color = "";
+}
+
+async function aniAcc() {
+    let button = document.getElementById("acc");
+    await sleep(300);
+    button.style.boxShadow = "0 0 10px rgb(70, 144, 255)";
+    button.style.backgroundColor = "rgb(0, 160, 0)";
+    await sleep(1500);
+    button.style.backgroundColor = "";
+    button.style.boxShadow = "";
+    accept();
+    await sleep(5000)
+    let popup = document.getElementById("positiv");
+    popup.style.top = "";
+    popup.style.visibility = "";
+}
+async function aniRej() {
+    let button = document.getElementById("rej");
+    await sleep(300);
+    button.style.boxShadow = "0 0 10px rgb(70, 144, 255)";
+    button.style.backgroundColor = "rgb(255, 59, 59)";
+    await sleep(1500);
+    button.style.backgroundColor = "";
+    button.style.boxShadow = "";
+    reject();
+    await sleep(5000)
+    let popup = document.getElementById("negativ");
+    popup.style.top = "";
+    popup.style.visibility = "";
 }

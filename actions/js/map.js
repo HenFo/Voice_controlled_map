@@ -4,7 +4,7 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/streets-v11',
     center: [-74.5, 40],
     zoom: 9,
-    // interactive: false
+    interactive: false
 });
 
 var compass = new mapboxgl.NavigationControl({
@@ -31,11 +31,11 @@ function sleep(ms) {
 
 
 async function doStuff() {
-    fakeUserLocation();
+    vectorBasemap();
 }
 
 function doStuff2() {
-    deactivateDistanceMeasurements();
+    sateliteBasemap();
 }
 
 function doStuff3() {
@@ -91,6 +91,14 @@ function clearSelection() {
 /*
 MAP MANIPULATION
 */
+
+function sateliteBasemap() {
+    map.setStyle('mapbox://styles/mapbox/satellite-v9');
+}
+
+function vectorBasemap() {
+    map.setStyle('mapbox://styles/mapbox/streets-v11');
+}
 
 async function fakeUserLocation() {
     let center = map.getCenter();
