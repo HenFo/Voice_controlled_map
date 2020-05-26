@@ -23,7 +23,7 @@ body {
 }
 
 #selection {
-    visibility: hidden;
+    visibility: visible;
 }
 
 #next-prev {
@@ -31,5 +31,9 @@ body {
 }
 
 #close {
+    visibility: hidden;
+}
+
+#accept-reject {
     visibility: hidden;
 }

@@ -1,8 +1,8 @@
 async function doStuff() {
-    aniAcc();
+    aniSelection();
 }
 async function doStuff2() {
-    aniRej();
+    
 }
 
 async function aniNext() {
@@ -69,4 +69,21 @@ async function aniRej() {
     let popup = document.getElementById("negativ");
     popup.style.top = "";
     popup.style.visibility = "";
+}
+
+async function aniSelection() {
+    let id = Math.round(Math.random()*2) + 1;
+    let obj = document.getElementById("obj"+id);
+    await sleep(300);
+    obj.style.boxShadow = "0 0 20px rgb(70, 144, 255)";
+    obj.style.backgroundColor = "rgb(170, 170, 170)";
+    await sleep(1500);
+    obj.style.boxShadow = "";
+    obj.style.backgroundColor = "";
+    selection(id);
+    await sleep(5000);
+    for (let i = 1; i <= 3 ; i++) {
+        document.getElementById("obj"+i).style.visibility = "visible";      
+    }
+
 }

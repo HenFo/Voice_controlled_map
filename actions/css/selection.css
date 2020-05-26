@@ -1,0 +1,23 @@
+.obj {
+    background-color: white;
+    height: 8em;
+    width: 8em;
+    margin: 2em auto;
+    position: relative;
+}
+
+.obj > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#selection {
+    height: auto;
+}
+
+.obj:hover {
+    box-shadow: 0 0 20px rgb(70, 144, 255);
+    background-color: rgb(170, 170, 170);
+}
