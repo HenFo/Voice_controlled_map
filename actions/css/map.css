@@ -4,6 +4,7 @@
     left: 0;
     height: 100%;
     width: 100%;
+    z-index: 0;
 }
 
 .do {
@@ -86,3 +87,14 @@ li {
     padding: 5px 10px;
     border-radius: 3px;
     }
+
+.actionButton {
+    position: relative;
+    margin: 2px;
+    z-index: 2;
+}
+
+#buttons {
+    position: absolute;
+    bottom: 2px;
+}

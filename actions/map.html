@@ -34,8 +34,55 @@
     <div id="searchbar">
         <input type="text" placeholder="Suche..." id="searchInput">
     </div>
-    <button onclick="doStuff()" class="do" id="do1">Mach etwas</button>
-    <button onclick="doStuff2()" class="do" id="do2">wiederholen</button>
+    <!-- <button onclick="doStuff()" class="do" id="do1">Mach etwas</button>
+    <button onclick="doStuff2()" class="do" id="do2">wiederholen</button> -->
+    <div id="buttons">
+        <button onclick="up()" class="actionButton">Norden</button>
+        <button onclick="right()" class="actionButton">Osten</button>
+        <button onclick="down()" class="actionButton">Süden</button>
+        <button onclick="left()" class="actionButton">Westen</button>
+
+        <button onclick="upRight()" class="actionButton">Nordost</button>
+        <button onclick="upLeft()" class="actionButton">Nordwest</button>
+        <button onclick="downRight()" class="actionButton">Südost</button>
+        <button onclick="downLeft()" class="actionButton">Südwest</button>
+
+        <button onclick="zoomIn()" class="actionButton">rein zoomen</button>
+        <button onclick="zoomOut()" class="actionButton">raus zoomen</button>
+
+        <button onclick="rotate(45)" class="actionButton">leichte Drehung</button>
+        <button onclick="rotate(90)" class="actionButton">starke Drehung</button>
+
+        <button onclick="pitch(45)" class="actionButton">Anstellwinkel</button>
+
+        <button onclick="resetView()" class="actionButton">Ansicht zurücksetzen</button>
+
+        <button onclick="showMenu()" class="actionButton">Menü anzeigen</button>
+        <button onclick="hideMenu()" class="actionButton">Menü ausblenden</button>
+
+        <button onclick="showHelp()" class="actionButton">Hilfe anzeigen</button>
+        <button onclick="hideHelp()" class="actionButton">Hilfe ausblenden</button>
+
+        <button onclick="showSearch()" class="actionButton">Suche anzeigen</button>
+        <button onclick="hideSearch()" class="actionButton">Suche ausblenden</button>
+
+        <button onclick="fakeUserLocation()" class="actionButton">Fake Benutzer-Ortung</button>
+
+        <button onclick="sateliteBasemap()" class="actionButton">Basemap: Satelit</button>
+        <button onclick="vectorBasemap()" class="actionButton">Basemap: Vector</button>
+
+        <button onclick="addMarker()" class="actionButton">Marker setzen</button>
+        <button onclick="clearMarker()" class="actionButton">alle Marker löschen</button>
+
+        <button onclick="activateDistanceMeasurements()" class="actionButton">starte Distanzmessung</button>
+        <button onclick="setPoint()" class="actionButton">setze Messpunkt</button>
+        <button onclick="deactivateDistanceMeasurements()" class="actionButton">beende Distanzmessung</button>
+    </div>
+
+
+
+
+
 
     <div id="distance" class="distance-container"></div>
 
