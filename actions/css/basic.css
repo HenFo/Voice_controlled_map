@@ -23,11 +23,11 @@ body {
 }
 
 #selection {
-    visibility: visible;
+    visibility: hidden;
 }
 
 #next-prev {
-    visibility: hidden;
+    visibility: visible;
 }
 
 #close {
@@ -36,4 +36,15 @@ body {
 
 #accept-reject {
     visibility: hidden;
+}
+
+.actionButton {
+    position: relative;
+    margin: 2px;
+    z-index: 2;
+}
+
+#buttons {
+    position: absolute;
+    bottom: 2px;
 }
