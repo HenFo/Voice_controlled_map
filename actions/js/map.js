@@ -4,7 +4,7 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/streets-v11',
     center: [-74.5, 40],
     zoom: 9,
-    interactive: false
+    // interactive: false
 });
 
 var compass = new mapboxgl.NavigationControl({
@@ -14,6 +14,11 @@ var compass = new mapboxgl.NavigationControl({
 map.addControl(compass, 'top-right');
 
 var distanceContainer = document.getElementById('distance');
+
+// https://stackoverflow.com/questions/4467539/javascript-modulo-gives-a-negative-result-for-negative-numbers
+Number.prototype.mod = function(n) {
+    return ((this%n)+n)%n;
+};
 
 
 
@@ -30,8 +35,18 @@ function sleep(ms) {
 }
 
 
+function resetPosition() {
+    map.jumpTo({
+        center: [-74.5, 40],
+        zoom: 9,
+        pitch: 0,
+        bearing: 0
+    });
+}
+
+
 async function doStuff() {
-    vectorBasemap();
+    next();
 }
 
 function doStuff2() {
@@ -40,6 +55,85 @@ function doStuff2() {
 
 function doStuff3() {
     setPoint();
+}
+
+/*
+BASIC INTERACTIONS
+*/
+let marker = [];
+let position = 0;
+function initPrevNext() {
+    // Empire State, WiBRidge, Liberty
+    let waypoints = [
+        [-73.985632, 40.748473],
+        [-73.972016, 40.713601],
+        [-74.044539, 40.689398]
+    ];
+    
+    for (let i = 0; i < waypoints.length; i++) {
+        marker.push(new mapboxgl.Marker()
+            .setLngLat(waypoints[i])
+            .addTo(map));
+    }
+
+    map.jumpTo({
+        center: waypoints[0],
+        zoom: 12
+    });
+
+    showResults();
+    let obj = document.querySelector("#resultList > li:nth-child(1)");
+    obj.style.fontWeight = "bolder";
+    obj.style.color = "#525252";
+}
+
+async function next() {
+    const button = document.getElementById("next");
+    button.style.backgroundColor = "#c2c2c2";
+    await sleep(2000);
+    button.style.backgroundColor= "";
+
+    let obj = document.querySelector(`#resultList > li:nth-child(${position+1})`);
+    obj.style.fontWeight = "";
+    obj.style.color = "";
+
+    position = (position +1) % 3;
+
+    obj = document.querySelector(`#resultList > li:nth-child(${position+1})`);
+    obj.style.fontWeight = "bolder";
+    obj.style.color = "#525252";
+
+
+    map.flyTo({center: marker[position].getLngLat(), zoom:12, speed:0.3});
+}
+async function prev() {
+    const button = document.getElementById("prev");
+    button.style.backgroundColor = "#c2c2c2";
+    await sleep(2000);
+    button.style.backgroundColor= "";
+
+    let obj = document.querySelector(`#resultList > li:nth-child(${position+1})`);
+    obj.style.fontWeight = "";
+    obj.style.color = "";
+
+    position = position -1  < 0 ? 2 : position -1;
+
+    obj = document.querySelector(`#resultList > li:nth-child(${position+1})`);
+    obj.style.fontWeight = "bolder";
+    obj.style.color = "#525252";
+
+
+    map.flyTo({center: marker[position].getLngLat(), zoom:12, speed:0.3});
+}
+
+function stopNextPrev() {
+    for (let i = 0; i < marker.length; i++) {
+        marker[i].remove();        
+    }
+    marker = [];
+    position = 0;
+    hideResults();
+    resetPosition();
 }
 
 /*
@@ -79,14 +173,14 @@ function hideSearch() {
 
 }
 
-function selectResult(number) {
-    clearSelection();
-    $(`#resultList li:nth-child(${number})`).css("background-color", "gray");
-}
+// function selectResult(number) {
+//     clearSelection();
+//     $(`#resultList li:nth-child(${number})`).css("background-color", "gray");
+// }
 
-function clearSelection() {
-    $("#resultList").children().css("background-color", "unset");
-}
+// function clearSelection() {
+//     $("#resultList").children().css("background-color", "unset");
+// }
 
 /*
 MAP MANIPULATION
@@ -140,8 +234,11 @@ async function fakeUserLocation() {
     map.removeLayer("circle");
     map.removeSource("point");
     popup.remove();
-    map.jumpTo({center: center, zoom:zoom});
-    
+    map.jumpTo({
+        center: center,
+        zoom: zoom
+    });
+
 }
 
 
@@ -194,7 +291,11 @@ function setPoint() {
             }
         };
 
+        if (geojson.features.length > 1) geojson.features.pop();
+        distanceContainer.innerHTML = '';
+
         geojson.features.push(point);
+
 
         if (geojson.features.length > 1) {
             linestring.geometry.coordinates = geojson.features.map(function (
@@ -213,6 +314,9 @@ function setPoint() {
                 'km';
             distanceContainer.appendChild(value);
         }
+
+        console.log(geojson);
+
 
         map.getSource('geojson').setData(geojson);
     } catch (e) {
