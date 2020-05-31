@@ -2,8 +2,8 @@ import os
 from pprint import pprint
 
 import numpy as np
-from keras.layers import LSTM, Dense, Dropout, Embedding
-from keras.models import Sequential
+from keras.layers import LSTM, Dense, Dropout, Embedding, Input
+from keras.models import Sequential, Model
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
 from nltk.tokenize import word_tokenize
@@ -18,9 +18,11 @@ class Fuzzy_Classifier():
         self.tags = sorted(list(vocabulary.keys()))
         self.tag_to_index = {k:v for v,k in enumerate(self.tags)}
 
-    def predict(self, command:str, threshold:int = 50):
-        predictions = process.extractBests(command, self.vocab, score_cutoff=threshold)
-        return [self.tag_to_index.get(tag) for _, _, tag in predictions]
+    def predict(self, commands:list, threshold:int = 50):
+        predictions = []
+        for command in commands:
+            predictions.append(process.extractBests(command, self.vocab, score_cutoff=threshold))
+        return [[self.tag_to_index.get(tag) for _, _, tag in prediction] for prediction in predictions]
         
 
 
@@ -96,8 +98,10 @@ class FFNN(NN):
 class RNN(NN):
     def build(self, input_shape: tuple, num_outputs: int):
         model = Sequential()
-        model.add(LSTM(32,input_shape=input_shape, return_sequences=True, dropout=0.3))
-        model.add(Dense(32))
+        model.add(LSTM(64,input_shape=input_shape, return_sequences=True))
+        model.add(Dropout(0.2))
+        model.add(LSTM(32))
+        model.add(Dropout(0.15))
         model.add(Dense(num_outputs, activation="sigmoid"))
 
         model.compile("rmsprop", "binary_crossentropy")

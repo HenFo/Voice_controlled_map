@@ -25,7 +25,7 @@
         },
         {
             "tag": "repeat",
-            "commands": ["nochmal", "wiederholen", "mach das nochmal", "weiter", "etwas weiter", "viel mehr", "mehr", "wieder", "erneut"]
+            "commands": ["nochmal", "wiederholen", "mach das nochmal", "weiter", "etwas weiter", "viel mehr", "wieder", "erneut"]
         }
 
     ]
