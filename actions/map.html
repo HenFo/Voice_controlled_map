@@ -11,6 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/accept_reject.css">
     <title>Map</title>
 </head>
 
@@ -23,9 +24,9 @@
     </div>
     <div id="results" class="sidebar">
         <ol id="resultList">
-            <li>Punkt a</li>
-            <li>Punkt b</li>
-            <li>Punkt c</li>
+            <li>Ort a</li>
+            <li>Ort b</li>
+            <li>Ort c</li>
         </ol>
         <button class="prev-next-button" onclick="prev()" id="prev">&lt;</button>
         <button class="prev-next-button" onclick="next()" id="next">&gt;</button>
@@ -35,6 +36,19 @@
     </div>
     <div id="searchbar">
         <input type="text" placeholder="Suche..." id="searchInput">
+    </div>
+
+    <div id="accept-reject" class="container">
+        <h3 id="text">Benutzerbedingungen</h3>
+        <button id="acc" class="button" onclick="aniAcc()">&#10004;</button>
+        <button id="rej" class="button" onclick="aniRej()">&#10006;</button>
+
+        <div id="positiv" class="popup">
+            <span>&#10004;</span>
+        </div>
+        <div id="negativ" class="popup">
+            <span>&#10006;</span>
+        </div>
     </div>
 
     <button onclick="animateMap()" class="do" id="animateMap">Mach etwas</button>

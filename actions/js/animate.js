@@ -11,7 +11,7 @@ function sleep(ms) {
 /* 
 0/1 = basic direction; 2/3 = combined direction
 */
-var state = 0;
+var state = 24;
 var used = -1;
 let repeat = false;
 async function animateMap() {
@@ -240,6 +240,36 @@ async function animateMap() {
             await sleep(5000);
             prev();
             await sleep(5000);
+            state++;
+            break;
+        }
+
+        case 24: {
+            let obj = document.getElementById("accept-reject");
+            obj.style.visibility = "visible";
+            await sleep(3000);
+            await aniAcc();
+            await sleep(1000);
+            obj.style.visibility = "";
+            let popup = document.getElementById("positiv");
+            popup.style.visibility = "";
+            popup.style.top = "";
+
+            state++;
+            break;
+        }
+        case 25: {
+            let obj = document.getElementById("accept-reject");
+            obj.style.visibility = "visible";
+
+            await sleep(3000);
+            await aniRej();
+            // await sleep(1000);
+            obj.style.visibility = "";
+            let popup = document.getElementById("negativ");
+            popup.style.visibility = "";
+            popup.style.top = "";
+
             state++;
             break;
         }

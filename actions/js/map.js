@@ -60,6 +60,44 @@ function doStuff3() {
 /*
 BASIC INTERACTIONS
 */
+
+function accept() {    
+    let popup = document.getElementById("positiv");
+    popup.style.top = "50%";
+    popup.style.visibility = "visible";
+}
+
+function reject() {
+    let popup = document.getElementById("negativ");
+    popup.style.top = "50%";
+    popup.style.visibility = "visible";
+}
+
+async function aniAcc() {
+    let button = document.getElementById("acc");
+    await sleep(300);
+    button.style.boxShadow = "0 0 10px rgb(70, 144, 255)";
+    button.style.backgroundColor = "rgb(0, 160, 0)";
+    await sleep(1500);
+    button.style.backgroundColor = "";
+    button.style.boxShadow = "";
+    accept();
+    await sleep(5000)
+    
+}
+async function aniRej() {
+    let button = document.getElementById("rej");
+    await sleep(300);
+    button.style.boxShadow = "0 0 10px rgb(70, 144, 255)";
+    button.style.backgroundColor = "rgb(255, 59, 59)";
+    await sleep(1500);
+    button.style.backgroundColor = "";
+    button.style.boxShadow = "";
+    reject();
+    await sleep(5000)
+}
+
+
 let marker = [];
 let position = 0;
 function initPrevNext() {
