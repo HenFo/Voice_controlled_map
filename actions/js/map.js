@@ -116,15 +116,100 @@ async function aniRej() {
 
 
 let marker = [];
+
+function initSelectSingle() {
+    let resluts = document.getElementById("resultList");
+    resluts.innerHTML = "<li>Ort a</li><li>Ort b</li><li>Ort c</li><li>Ort d</li>";
+
+    let waypoints = [
+        [-74.277018, 40.251148],
+        [-74.281740, 40.238832],
+        [-74.274578, 40.235468],
+        [-74.258365, 40.241114]
+    ];
+
+    for (let i = 0; i < waypoints.length; i++) {
+        marker.push(new mapboxgl.Marker()
+            .setLngLat(waypoints[i])
+            .addTo(map));
+    }
+
+    let center = [-74.280717, 40.246943];
+
+    map.jumpTo({
+        center: center,
+        zoom: 12
+    });
+
+    document.querySelectorAll("#results > button").forEach(button => {
+        console.log(button);
+        
+        button.style.visibility = "hidden";
+    })
+
+    showResults();
+}
+
+let lastSelected = -1;
+async function selectSingle() {
+    let randomSelection = -1;
+    do {
+        randomSelection = Math.round(Math.random() * 3);
+    } while (randomSelection == lastSelected);
+    lastSelected = randomSelection;
+
+    let obj = document.querySelector(`#resultList > li:nth-child(${randomSelection+1})`);
+
+
+    obj.style.backgroundColor = "#c7c7c7";
+
+
+    await sleep(3000);
+
+    document.querySelectorAll("#resultList > li").forEach(li => {
+        li.style.fontWeight = "";
+        li.style.color = "";
+    })
+
+    obj.style.backgroundColor = "";
+    obj.style.fontWeight = "bolder";
+    obj.style.color = "#525252";
+    map.flyTo({
+        center: marker[randomSelection].getLngLat(),
+        zoom: 14
+    });
+    await sleep(4000);
+}
+
+function stopSelectSingle() {
+    for (let i = 0; i < marker.length; i++) {
+        marker[i].remove();
+    }
+    marker = [];
+    hideResults();
+    resetPosition();
+
+    document.querySelectorAll("#results > button").forEach(button => {
+        button.style.visibility = "";
+    })
+
+    document.getElementById("resultList").innerHTML = "";
+}
+
+
 let position = 0;
 
 function initPrevNext() {
+    let resluts = document.getElementById("resultList");
+    resluts.innerHTML = "<li>Ort a</li><li>Ort b</li><li>Ort c</li>";
+
     // Empire State, WiBRidge, Liberty
     let waypoints = [
         [-73.985632, 40.748473],
         [-73.972016, 40.713601],
         [-74.044539, 40.689398]
     ];
+
 
     for (let i = 0; i < waypoints.length; i++) {
         marker.push(new mapboxgl.Marker()

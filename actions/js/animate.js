@@ -11,7 +11,7 @@ function sleep(ms) {
 /* 
 0/1 = basic direction; 2/3 = combined direction
 */
-var state = 24;
+var state = 0;
 var used = -1;
 let repeat = false;
 async function animateMap() {
@@ -245,12 +245,23 @@ async function animateMap() {
         }
 
         case 24: {
+            stopNextPrev();
             await aniAcc();
             state++;
             break;
         }
         case 25: {
             await aniRej();            
+            state++;
+            break;
+        }
+
+        case 26: {
+            initSelectSingle();
+            await sleep(3000);
+            await selectSingle();
+            await sleep(5000);
+            stopSelectSingle();
             state++;
             break;
         }
