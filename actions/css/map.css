@@ -13,11 +13,11 @@
     right: 10px;
 }
 
-#do2 {
+#repeatMap {
     transform: translate(0, 110%);
 }
 
-#do3 {
+#backMap {
     transform: translate(0, 220%);
 }
 
@@ -98,4 +98,19 @@ li {
 #buttons {
     position: absolute;
     bottom: 2px;
+}
+
+#results {
+    transition-duration: 0s;
+}
+
+.prev-next-button {
+    font-weight: bolder;
+    font-size: larger;
+    width: 5em;
+    height: 1.5em;
+}
+
+#accept-reject {
+    visibility: hidden;
 }

@@ -11,6 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/accept_reject.css">
     <title>Map</title>
 </head>
 
@@ -23,10 +24,12 @@
     </div>
     <div id="results" class="sidebar">
         <ol id="resultList">
-            <li>Rewe</li>
-            <li>Penni</li>
-            <li>Aldi</li>
+            <li>Ort a</li>
+            <li>Ort b</li>
+            <li>Ort c</li>
         </ol>
+        <button class="prev-next-button" onclick="prev()" id="prev">&lt;</button>
+        <button class="prev-next-button" onclick="next()" id="next">&gt;</button>
     </div>
     <div id="help" class="sidebar">
         <h3>Hilfe</h3>
@@ -34,8 +37,23 @@
     <div id="searchbar">
         <input type="text" placeholder="Suche..." id="searchInput">
     </div>
-    <!-- <button onclick="doStuff()" class="do" id="do1">Mach etwas</button>
-    <button onclick="doStuff2()" class="do" id="do2">wiederholen</button> -->
+
+    <div id="accept-reject" class="container">
+        <h3 id="text">Benutzerbedingungen</h3>
+        <button id="acc" class="button" onclick="aniAcc()">&#10004;</button>
+        <button id="rej" class="button" onclick="aniRej()">&#10006;</button>
+
+        <div id="positiv" class="popup">
+            <span>&#10004;</span>
+        </div>
+        <div id="negativ" class="popup">
+            <span>&#10006;</span>
+        </div>
+    </div>
+
+    <button onclick="animateMap()" class="do" id="animateMap">Mach etwas</button>
+    <button onclick="repeatMap()" class="do" id="repeatMap">wiederholen</button>
+
     <div id="buttons">
         <button onclick="up()" class="actionButton">Norden</button>
         <button onclick="right()" class="actionButton">Osten</button>
@@ -77,6 +95,11 @@
         <button onclick="activateDistanceMeasurements()" class="actionButton">starte Distanzmessung</button>
         <button onclick="setPoint()" class="actionButton">setze Messpunkt</button>
         <button onclick="deactivateDistanceMeasurements()" class="actionButton">beende Distanzmessung</button>
+
+        <button onclick="initPrevNext()" class="actionButton">starte Next/Prev</button>
+        <button onclick="next()" class="actionButton">Weiter</button>
+        <button onclick="prev()" class="actionButton">Zurück</button>
+        <button onclick="stopNextPrev()" class="actionButton">beende Next/Prev</button>
     </div>
 
 
