@@ -245,31 +245,12 @@ async function animateMap() {
         }
 
         case 24: {
-            let obj = document.getElementById("accept-reject");
-            obj.style.visibility = "visible";
-            await sleep(3000);
             await aniAcc();
-            await sleep(1000);
-            obj.style.visibility = "";
-            let popup = document.getElementById("positiv");
-            popup.style.visibility = "";
-            popup.style.top = "";
-
             state++;
             break;
         }
         case 25: {
-            let obj = document.getElementById("accept-reject");
-            obj.style.visibility = "visible";
-
-            await sleep(3000);
-            await aniRej();
-            // await sleep(1000);
-            obj.style.visibility = "";
-            let popup = document.getElementById("negativ");
-            popup.style.visibility = "";
-            popup.style.top = "";
-
+            await aniRej();            
             state++;
             break;
         }
