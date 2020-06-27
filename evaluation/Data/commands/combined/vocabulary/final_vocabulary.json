@@ -1,0 +1,13 @@
+{
+    "zoomIn": ["rein", "naeh", "reinzoom", "ran", "zeig mir mehr detail", "vergroess", "geh naeh heran", "mehr detail", "groess", "zoom naeh", "genau", "hereinzoom"],
+    "zoomOut": ["zeig mir mehr", "geh raus", "erweit", "herauszoom", "rauszoom", "wenig detail", "mehr", "zeig mir wenig detail"],
+    "left": ["geh nach link", "richtung west", "nach west", "link"],
+    "right": ["geh nach recht", "nach recht verschieb", "recht", "ost", "richtung ost", "nach ost"],
+    "up": ["hoch", "oben", "geh nach oben", "nach oben verschieb", "richtung nord", "nach nord", "nord"],
+    "down": ["nach sued", "richtung sued", "runt", "unt", "geh nach unt"],
+    "topLeft": ["richtung nordw", "geh nach oben link", "nach nordw", "nach oben link verschieb", "oben link", "nordw"],
+    "topRight": ["nach nordost", "nordost", "richtung nordost"],
+    "bottomLeft": ["suedw", "richtung suedw", "nach unt link verschieb", "nach suedw", "unt link", "geh nach unt link"],
+    "bottomRight": ["nach suedost", "geh nach unt recht", "suedost", "richtung suedost", "nach unt recht verschieb", "unt recht"],
+    "repeat": ["wiederhol", "wieder", "nochmal", "noch mal", "erneut", "mach das noch mal"]
+}

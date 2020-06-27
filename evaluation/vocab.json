@@ -1,0 +1,32 @@
+{
+    "actions": [{
+            "tag": "zoomIn",
+            "commands": ["zoom in", "get closer", "zoom closer", "closer"]
+        },
+        {
+            "tag": "zoomOut",
+            "commands": ["zoom out", "go out", "zoom away", "out"]
+        },
+        {
+            "tag": "left",
+            "commands": ["left", "left hand side", "pan left", "go left", "to the left hand side", "west"]
+        },
+        {
+            "tag": "right",
+            "commands": ["right", "right hand side", "pan right", "go right", "to the right hand side", "east"]
+        },
+        {
+            "tag": "up",
+            "commands": ["to the top", "up", "go up", "pan up", "top", "north"]
+        },
+        {
+            "tag": "down",
+            "commands": ["to the bottom", "down", "go down", "pan down", "bottom", "south"]
+        },
+        {
+            "tag": "repeat",
+            "commands": ["again", "repeat", "do that again", "further", "much more", "more"]
+        }
+        
+    ]
+}

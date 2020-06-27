@@ -1,0 +1,48 @@
+{
+    "actions": [{
+            "tag": "zoomIn",
+            "commands": ["hereinzoomen", "reinzoomen", "geh naeher heran", "zoom naeher", "naeher", "rein", "ran", "vergroessern", "groesser", "genauer", "mehr details", "zeige mir mehr details"]
+        },
+        {
+            "tag": "zoomOut",
+            "commands": ["herauszoomen", "rauszoomen", "geh raus", "zeig mir mehr", "mehr", "erweitern", "weniger details", "zeige mir weniger details"]
+        },
+        {
+            "tag": "left",
+            "commands": ["links", "geh nach links", "nach westen", "richtung westen", "nach rechts verschieben"]
+        },
+        {
+            "tag": "right",
+            "commands": ["rechts", "geh nach rechts", "nach rechts verschieben", "osten", "nach osten", "richtung osten"]
+        },
+        {
+            "tag": "up",
+            "commands": ["oben", "geh nach oben", "nach oben verschieben", "norden", "nach norden", "richtung norden", "hoch"]
+        },
+        {
+            "tag": "down",
+            "commands": ["unten", "geh nach unten", "nach sueden", "richtung sueden", "runter"]
+        },
+        {
+            "tag": "topLeft",
+            "commands": ["oben links", "geh nach oben links", "nach oben links verschieben", "nordwesten", "nach nordwesten", "richtung nordwest"]
+        },
+        {
+            "tag": "topRight",
+            "commands": ["nordosten", "nach nordosten", "richtung nordost"]
+        },
+        {
+            "tag": "bottomLeft",
+            "commands": ["unten links", "geh nach unten links", "nach unten links verschieben", "suedwesten", "nach suedwesten", "richtung suedwest"]
+        },
+        {
+            "tag": "bottomRight",
+            "commands": ["unten rechts", "geh nach unten rechts", "nach unten rechts verschieben", "suedosten", "nach suedosten", "richtung suedost"]
+        },
+        {
+            "tag": "repeat",
+            "commands": ["noch mal", "nochmal", "wiederholen", "mach das noch mal", "wieder", "erneut", "mehr"]
+        }
+
+    ]
+}
