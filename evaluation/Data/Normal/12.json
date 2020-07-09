@@ -1,0 +1,81 @@
+{
+    "actions": [{
+        "tag": "9",
+        "commands": ["Zoome raus rotiere die Karte und zentriere die Karte"]
+    }, {
+        "tag": "21",
+        "commands": ["berechne die Distanz zwischen den drei Punkten und gib mir die Teildistanzen"]
+    }, {
+        "tag": "25",
+        "commands": ["verneine"]
+    }, {
+        "tag": "16",
+        "commands": ["suche"]
+    }, {
+        "tag": "17",
+        "commands": []
+    }, {
+        "tag": "10",
+        "commands": ["setze einen Punkt", "setze den Punkt dorthin"]
+    }, {
+        "tag": "11",
+        "commands": ["loesche alle Punkte aus der Karte"]
+    }, {
+        "tag": "19",
+        "commands": ["aendere von topographische Karte zu bilddaten"]
+    }, {
+        "tag": "20",
+        "commands": ["aendere von Bilddaten zu topographische Karte"]
+    }, {
+        "tag": "2",
+        "commands": ["bewege die Karte nach Suedwesten"]
+    }, {
+        "tag": "24",
+        "commands": ["akzeptiere"]
+    }, {
+        "tag": "22",
+        "commands": ["zeige mir den naechsten Punkt"]
+    }, {
+        "tag": "23",
+        "commands": ["zeige mir den vorherigen Punkt"]
+    }, {
+        "tag": "5",
+        "commands": ["Zoome raus"]
+    }, {
+        "tag": "1",
+        "commands": ["bewege die Karte nach Sueden"]
+    }, {
+        "tag": "4",
+        "commands": ["zoome rein"]
+    }, {
+        "tag": "3",
+        "commands": ["bewege die Karte nach Suedosten"]
+    }, {
+        "tag": "14",
+        "commands": ["Hilfe"]
+    }, {
+        "tag": "15",
+        "commands": ["Hilfe"]
+    }, {
+        "tag": "8",
+        "commands": ["Kippe die Karte horizontal"]
+    }, {
+        "tag": "18",
+        "commands": ["wo bin ich"]
+    }, {
+        "tag": "26",
+        "commands": ["zoome auf Ort x"]
+    }, {
+        "tag": "6",
+        "commands": ["rotiere die Karte"]
+    }, {
+        "tag": "0",
+        "commands": ["bewege die Karte nach Osten"]
+    }, {
+        "tag": "12",
+        "commands": ["Menue"]
+    }, {
+        "tag": "13",
+        "commands": ["Menue"]
+    }]
+}

@@ -2,7 +2,7 @@ import os
 from pprint import pprint
 
 import numpy as np
-from keras.layers import LSTM, Dense, Dropout, Embedding, Input
+from keras.layers import LSTM, Dense, Dropout, Embedding, Input, Bidirectional
 from keras.models import Sequential, Model
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
@@ -70,9 +70,9 @@ class FFNN(NN):
         model = Sequential()
         model.add(Dense(64, input_shape=input_shape))
         model.add(Dense(32))
-        model.add(Dense(num_outputs, activation="sigmoid"))
+        model.add(Dense(num_outputs, activation="softmax"))
 
-        model.compile("rmsprop", "binary_crossentropy")
+        model.compile("rmsprop", "categorical_crossentropy")
         model.summary()
 
         self.model = model
@@ -98,13 +98,11 @@ class FFNN(NN):
 class RNN(NN):
     def build(self, input_shape: tuple, num_outputs: int):
         model = Sequential()
-        model.add(LSTM(64,input_shape=input_shape, return_sequences=True))
-        model.add(Dropout(0.2))
-        model.add(LSTM(32))
-        model.add(Dropout(0.15))
-        model.add(Dense(num_outputs, activation="sigmoid"))
+        model.add(Bidirectional(LSTM(64,input_shape=input_shape, return_sequences=False)))
+        model.add(Dense(32))
+        model.add(Dense(num_outputs, activation="softmax"))
 
-        model.compile("rmsprop", "binary_crossentropy")
+        model.compile("rmsprop", "categorical_crossentropy")
         model.summary()
 
         self.model = model

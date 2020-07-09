@@ -83,5 +83,5 @@ if __name__ == "__main__":
     test_path   = os.path.join("Data", "commands", "test")
     combine_data(train_path, "combined_training_data")
     combine_data(test_path, "combined_test_data")
-    combine_data_multilable(train_path, "combined_training_data_ml")
-    combine_data_multilable(test_path, "combined_test_data_ml")
+    # combine_data_multilable(train_path, "combined_training_data_ml")
+    # combine_data_multilable(test_path, "combined_test_data_ml")

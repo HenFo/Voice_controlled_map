@@ -1,0 +1,81 @@
+{
+    "actions": [{
+        "tag": "0",
+        "commands": ["zeige mehr", "geh nach Osten"]
+    }, {
+        "tag": "10",
+        "commands": []
+    }, {
+        "tag": "11",
+        "commands": ["loesche Route", "entferne Route"]
+    }, {
+        "tag": "16",
+        "commands": ["gib mir Suchoptionen", "lass mich suchen"]
+    }, {
+        "tag": "17",
+        "commands": []
+    }, {
+        "tag": "6",
+        "commands": ["goutiere 45 Grad nach links", "und ihre 45° nach Nordwesten"]
+    }, {
+        "tag": "21",
+        "commands": []
+    }, {
+        "tag": "2",
+        "commands": []
+    }, {
+        "tag": "3",
+        "commands": []
+    }, {
+        "tag": "25",
+        "commands": ["lehne ab"]
+    }, {
+        "tag": "19",
+        "commands": ["wechsel auf Satellitenbild"]
+    }, {
+        "tag": "20",
+        "commands": []
+    }, {
+        "tag": "22",
+        "commands": ["naechster Punkt", "naechster Standort"]
+    }, {
+        "tag": "23",
+        "commands": ["geh zurueck"]
+    }, {
+        "tag": "26",
+        "commands": ["waehle Ort x aus"]
+    }, {
+        "tag": "14",
+        "commands": ["zeige mir die Hilfe an", "Hilfe"]
+    }, {
+        "tag": "15",
+        "commands": []
+    }, {
+        "tag": "12",
+        "commands": ["zeige mir das Menue", "Menue"]
+    }, {
+        "tag": "13",
+        "commands": []
+    }, {
+        "tag": "9",
+        "commands": ["richte nach Norden aus"]
+    }, {
+        "tag": "1",
+        "commands": []
+    }, {
+        "tag": "4",
+        "commands": ["Zoom rein"]
+    }, {
+        "tag": "8",
+        "commands": ["wechsel Vogelperspektive Richtung Norden"]
+    }, {
+        "tag": "5",
+        "commands": ["Zoom raus"]
+    }, {
+        "tag": "24",
+        "commands": ["akzeptiere", "annehmen"]
+    }, {
+        "tag": "18",
+        "commands": ["lokalisiere mich", "wo bin ich"]
+    }]
+}

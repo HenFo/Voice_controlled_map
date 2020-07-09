@@ -1,0 +1,81 @@
+{
+    "actions": [{
+        "tag": "12",
+        "commands": ["oeffne Menue"]
+    }, {
+        "tag": "13",
+        "commands": ["schliesse menue"]
+    }, {
+        "tag": "21",
+        "commands": []
+    }, {
+        "tag": "14",
+        "commands": ["oeffne die Hilfe", "oeffne Hilfe Menue"]
+    }, {
+        "tag": "15",
+        "commands": ["schliesse Hilfe", "schliesse Hilfefenster"]
+    }, {
+        "tag": "16",
+        "commands": ["oeffne die Suche"]
+    }, {
+        "tag": "17",
+        "commands": ["schliesse suche"]
+    }, {
+        "tag": "3",
+        "commands": ["scrolle nach Osten", "bewege die Karte nach Osten", "bewege den Mauszeiger nach Osten"]
+    }, {
+        "tag": "5",
+        "commands": ["zoome aus der Karte"]
+    }, {
+        "tag": "4",
+        "commands": ["zoome in die Karte"]
+    }, {
+        "tag": "24",
+        "commands": ["akzeptiere"]
+    }, {
+        "tag": "18",
+        "commands": ["zeige den Standort auf der Karte", "zeige meinen Standort auf der Karte"]
+    }, {
+        "tag": "25",
+        "commands": ["lehne ab"]
+    }, {
+        "tag": "6",
+        "commands": ["richte die Karte in meine Blickrichtung aus"]
+    }, {
+        "tag": "2",
+        "commands": ["gehe auf der Karte nach Nordosten"]
+    }, {
+        "tag": "10",
+        "commands": ["markiere Ort auf der Karte", "markiere aktuellen Ort auf der Karte"]
+    }, {
+        "tag": "11",
+        "commands": ["loesche den markierten Ort"]
+    }, {
+        "tag": "26",
+        "commands": ["zoome auf ein bestimmtes Ergebnis auf der Karte"]
+    }, {
+        "tag": "8",
+        "commands": ["neige die Karte"]
+    }, {
+        "tag": "22",
+        "commands": ["naechsten Ort"]
+    }, {
+        "tag": "23",
+        "commands": ["vorherigen Ort"]
+    }, {
+        "tag": "9",
+        "commands": ["richte die Karte nach Norden aus"]
+    }, {
+        "tag": "19",
+        "commands": ["aendere den kartenhintergrund auf Satellitenbild"]
+    }, {
+        "tag": "20",
+        "commands": ["aendere den Karten Hintergrund auf dem man die Strassen und Staedtenamen sieht"]
+    }, {
+        "tag": "0",
+        "commands": ["verschiebe die Karte nach Osten"]
+    }, {
+        "tag": "1",
+        "commands": ["verschiebe die Karte nach Norden", "geh mit der Maus nach Norden"]
+    }]
+}

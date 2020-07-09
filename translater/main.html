@@ -10,9 +10,13 @@
 </head>
 
 <body>
+	<div class="classesInput">
+		<input type="text" id="classes" placeholder="Klassen" class="textfield">
+		<button onclick="commit()" class="button" id="saveC" autocomplete="off">Save Classes</button>
+	</div>
 	<div class="textInput">
 		<input type="text" id="class" placeholder="Tätigkeit" class="textfield"><br>
-		<textarea id="command" disabled class="textfield"></textarea><br>
+		<textarea id="command" class="textfield"></textarea><br>
 		<button onclick="save()" id="save" class="button">Save</button>
 		<button onclick="finish()" id="finish" class="button">Finish class</button> <br>
 		<button onclick="endSession()" id="endSession" class="button" disabled>End Session</button>
@@ -25,6 +29,7 @@
 		<div id="curSpeech"></div>
 		<div id="statusColor"></div>
 	</div>
+
 
 	<script src="FileSaver.js"></script>
 	<script src="main.js"></script>

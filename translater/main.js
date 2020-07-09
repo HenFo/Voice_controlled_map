@@ -7,18 +7,32 @@ var currentClass = {
     "commands": []
 };
 
+classes = []
+
+function commit() {
+    let input = document.getElementById("classes");
+    let text = input.value;
+    classes = text.split(",").reverse();
+
+    let hClass = document.getElementById("class");
+    hClass.value = classes.pop()
+
+    input.disabled = true;
+    document.getElementById("saveC").disabled = true;
+}
+
 function save() {
     let hClass = document.getElementById("class");
     let hText = document.getElementById("command");
 
-    if (hClass.value != "" && hText.value != "") {
+    if (hClass.value != "") {
 
         if (!hClass.disabled && hClass.value != currentClass.tag) {
             currentClass.tag = hClass.value;
             hClass.disabled = true;
         }
-
-        currentClass.commands.push(hText.value);
+        if(hText.value != "")
+            currentClass.commands.push(hText.value);
         console.log(currentClass);
         hText.value = "";
     } else {
@@ -28,21 +42,21 @@ function save() {
 }
 
 function finish() {
-    if (currentClass.tag != null && currentClass.commands.length > 0) {
-        if (confirm("Klasse speichern?")) {
-            intents.actions.push(currentClass);
-            let docClass = document.getElementById("class");
-            docClass.disabled = false;
-            docClass.value = "";
+    if (currentClass.tag != null) {
 
-            currentClass = {
-                "tag": null,
-                "commands": []
-            };
+        intents.actions.push(currentClass);
+        let docClass = document.getElementById("class");
+        docClass.disabled = false;
+        docClass.value = classes.pop();
 
-            console.log(intents);
-            document.getElementById("endSession").disabled = false;
-        }
+        currentClass = {
+            "tag": null,
+            "commands": []
+        };
+
+        console.log(intents);
+        document.getElementById("endSession").disabled = false;
+
     } else {
         alert("keine Klasse gespeichert");
     }
@@ -67,6 +81,9 @@ function endSession() {
         docClass.disabled = false;
         docClass.value = "";
         document.getElementById("command").value = "";
+        document.getElementById("classes").disabled = false;
+        document.getElementById("classes").value = "";
+        document.getElementById("saveC").disabled = false;
         saveAs(blob, "intents.txt");
     }
 }

@@ -1,0 +1,81 @@
+{
+    "actions": [{
+        "tag": "0",
+        "commands": ["nach Osten verschieben"]
+    }, {
+        "tag": "2",
+        "commands": ["nach Nordosten"]
+    }, {
+        "tag": "21",
+        "commands": ["Strecke abstecken"]
+    }, {
+        "tag": "8",
+        "commands": ["3D Modus"]
+    }, {
+        "tag": "12",
+        "commands": ["Menue oeffnen"]
+    }, {
+        "tag": "13",
+        "commands": []
+    }, {
+        "tag": "4",
+        "commands": ["reinzoomen"]
+    }, {
+        "tag": "6",
+        "commands": ["gegen den Uhrzeigersinn drehen"]
+    }, {
+        "tag": "24",
+        "commands": ["bestaetigen"]
+    }, {
+        "tag": "25",
+        "commands": ["ablehnen"]
+    }, {
+        "tag": "22",
+        "commands": []
+    }, {
+        "tag": "23",
+        "commands": []
+    }, {
+        "tag": "18",
+        "commands": ["aktuellen Standort anzeigen"]
+    }, {
+        "tag": "16",
+        "commands": ["Suchfenster oeffnen"]
+    }, {
+        "tag": "17",
+        "commands": ["Suchfenster schliessen"]
+    }, {
+        "tag": "9",
+        "commands": ["Karte Norden", "Karte einnorden"]
+    }, {
+        "tag": "14",
+        "commands": ["Hilfe oeffnen"]
+    }, {
+        "tag": "15",
+        "commands": ["Hilfe schliessen", "Hilfe Fenster schliessen"]
+    }, {
+        "tag": "10",
+        "commands": ["Wegpunkt setzen", "Markierung setzen"]
+    }, {
+        "tag": "11",
+        "commands": ["Wegpunkte loeschen", "Wegpunkte entfernen"]
+    }, {
+        "tag": "19",
+        "commands": ["Satellitenaufnahme"]
+    }, {
+        "tag": "20",
+        "commands": ["Grafikmodus wechseln"]
+    }, {
+        "tag": "5",
+        "commands": ["herauszoomen"]
+    }, {
+        "tag": "1",
+        "commands": ["nach Norden verschieben"]
+    }, {
+        "tag": "26",
+        "commands": ["Ort x anzeigen"]
+    }, {
+        "tag": "3",
+        "commands": []
+    }]
+}

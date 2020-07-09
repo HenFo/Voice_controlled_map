@@ -1,0 +1,81 @@
+{
+    "actions": [{
+        "tag": "3",
+        "commands": ["swipe nach links"]
+    }, {
+        "tag": "10",
+        "commands": ["setze neuen Wegpunkt"]
+    }, {
+        "tag": "11",
+        "commands": ["loesche alle Wegpunkte"]
+    }, {
+        "tag": "4",
+        "commands": ["hereinzoomen", "zoome hinein"]
+    }, {
+        "tag": "8",
+        "commands": ["neige den Betrachtungswinkel", "flache Ansicht"]
+    }, {
+        "tag": "24",
+        "commands": ["akzeptiere"]
+    }, {
+        "tag": "5",
+        "commands": ["herauszoomen", "zoome heraus"]
+    }, {
+        "tag": "9",
+        "commands": ["drehe Ansicht"]
+    }, {
+        "tag": "19",
+        "commands": ["Satellitenansicht", "zeige eine realistische Karte"]
+    }, {
+        "tag": "20",
+        "commands": ["zeige eine allgemeine Karte", "zeige eine Weg Karte"]
+    }, {
+        "tag": "22",
+        "commands": ["naechster Wegpunkt", "gehe zum naechsten Wegpunkt"]
+    }, {
+        "tag": "23",
+        "commands": ["vorheriger wegpunkt", "letzten Wegpunkt auswaehlen"]
+    }, {
+        "tag": "6",
+        "commands": ["Karte um 45 Grad drehen", "drehe die Karte nach links und 45 Grad"]
+    }, {
+        "tag": "14",
+        "commands": ["Hilfe", "bitte helfen sie mir"]
+    }, {
+        "tag": "15",
+        "commands": ["Hilfe ausblenden", "zurueck zur Karte"]
+    }, {
+        "tag": "18",
+        "commands": ["an meine Position heranzoomen", "finde meine Position"]
+    }, {
+        "tag": "0",
+        "commands": ["verschiebe mich auf der x-Achse nach rechts", "nach rechts gehen"]
+    }, {
+        "tag": "16",
+        "commands": ["suche", "Suchfunktion"]
+    }, {
+        "tag": "17",
+        "commands": ["Suchfunktion aus", "zurueck zur Karte"]
+    }, {
+        "tag": "2",
+        "commands": ["zoome nach rechts unten", "beweg dich nach rechts unten"]
+    }, {
+        "tag": "21",
+        "commands": ["setze zwei Punkte und messe die Distanz"]
+    }, {
+        "tag": "12",
+        "commands": ["Blende das Menue ein", "Menue"]
+    }, {
+        "tag": "13",
+        "commands": ["Blende das Menue aus", "geh zurueck zur Karte"]
+    }, {
+        "tag": "26",
+        "commands": ["waehle Wegpunkt x und zoome ran", "Wegpunkt x auswaehlen und ranzoomen"]
+    }, {
+        "tag": "1",
+        "commands": ["bewege dich auf der y-Achse nach unten", "beweg dich richtung sueden"]
+    }, {
+        "tag": "25",
+        "commands": ["ablehnen"]
+    }]
+}

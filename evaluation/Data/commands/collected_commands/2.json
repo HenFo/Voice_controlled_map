@@ -1,0 +1,81 @@
+{
+    "actions": [{
+        "tag": "0",
+        "commands": ["bewege Karte nach x"]
+    }, {
+        "tag": "1",
+        "commands": ["bewege Karte nach x"]
+    }, {
+        "tag": "16",
+        "commands": ["oeffne Suchfeld"]
+    }, {
+        "tag": "17",
+        "commands": ["suche beenden"]
+    }, {
+        "tag": "19",
+        "commands": ["wechsel zu Satellitenansicht"]
+    }, {
+        "tag": "20",
+        "commands": ["wechsel zu strassenkarte"]
+    }, {
+        "tag": "3",
+        "commands": ["bewege Curser nach x"]
+    }, {
+        "tag": "6",
+        "commands": ["Drehung gegen Uhrzeigersinn"]
+    }, {
+        "tag": "12",
+        "commands": ["oeffne Menue"]
+    }, {
+        "tag": "13",
+        "commands": ["Menue schliessen"]
+    }, {
+        "tag": "14",
+        "commands": ["Hilfe"]
+    }, {
+        "tag": "15",
+        "commands": ["Hilfe beenden"]
+    }, {
+        "tag": "8",
+        "commands": ["wechsel Ansichtswinkel"]
+    }, {
+        "tag": "2",
+        "commands": ["bewege Curser nach x"]
+    }, {
+        "tag": "5",
+        "commands": ["rauszoomen"]
+    }, {
+        "tag": "4",
+        "commands": ["reinzoomen"]
+    }, {
+        "tag": "21",
+        "commands": ["Messe Entfernung"]
+    }, {
+        "tag": "9",
+        "commands": ["Orientierung nach Norden"]
+    }, {
+        "tag": "26",
+        "commands": ["zeige x Standort"]
+    }, {
+        "tag": "10",
+        "commands": ["markiere Standort"]
+    }, {
+        "tag": "11",
+        "commands": ["alle Standorte loeschen"]
+    }, {
+        "tag": "24",
+        "commands": ["akzeptieren"]
+    }, {
+        "tag": "22",
+        "commands": ["springe zum naechsten Standort"]
+    }, {
+        "tag": "23",
+        "commands": ["springe zum vorherigen Standort"]
+    }, {
+        "tag": "18",
+        "commands": ["springe zu meinem Standort"]
+    }, {
+        "tag": "25",
+        "commands": ["ablehnen"]
+    }]
+}

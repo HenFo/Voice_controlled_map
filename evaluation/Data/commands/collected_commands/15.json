@@ -1,0 +1,81 @@
+{
+    "actions": [{
+        "tag": "4",
+        "commands": ["zoome naeher ran"]
+    }, {
+        "tag": "22",
+        "commands": ["verschiebe die Karte nach rechts"]
+    }, {
+        "tag": "23",
+        "commands": ["verschiebe die Karte nach links"]
+    }, {
+        "tag": "18",
+        "commands": ["zoome auf meinen Standort"]
+    }, {
+        "tag": "19",
+        "commands": ["aendere die Karte zu geologische Karte"]
+    }, {
+        "tag": "20",
+        "commands": ["veraendere die Karte zu gezeichnete Ansicht"]
+    }, {
+        "tag": "21",
+        "commands": []
+    }, {
+        "tag": "6",
+        "commands": ["drehe die Karte"]
+    }, {
+        "tag": "25",
+        "commands": ["lehne ab"]
+    }, {
+        "tag": "24",
+        "commands": ["stimme zu"]
+    }, {
+        "tag": "5",
+        "commands": ["zoome aus der Karte raus"]
+    }, {
+        "tag": "8",
+        "commands": ["veraendere den Kartenansichtswinkel"]
+    }, {
+        "tag": "10",
+        "commands": ["markiere den Punkt"]
+    }, {
+        "tag": "11",
+        "commands": ["entferne den Punkt von der Karte"]
+    }, {
+        "tag": "16",
+        "commands": ["oeffne die Suche"]
+    }, {
+        "tag": "17",
+        "commands": ["schliesse die Suche"]
+    }, {
+        "tag": "1",
+        "commands": ["scrolle nach x"]
+    }, {
+        "tag": "2",
+        "commands": ["scrolle nach x"]
+    }, {
+        "tag": "14",
+        "commands": ["zeige die Hilfe an"]
+    }, {
+        "tag": "15",
+        "commands": ["schliesse die Hilfe"]
+    }, {
+        "tag": "9",
+        "commands": ["richte die Karte nach Norden aus"]
+    }, {
+        "tag": "26",
+        "commands": ["Zoome auf das Ergebnis"]
+    }, {
+        "tag": "3",
+        "commands": ["scrolle nach x"]
+    }, {
+        "tag": "12",
+        "commands": ["zeige das Menue an"]
+    }, {
+        "tag": "13",
+        "commands": ["schliesse das Menue"]
+    }, {
+        "tag": "0",
+        "commands": ["scrolle nach x"]
+    }]
+}

@@ -1,0 +1,81 @@
+{
+    "actions": [{
+        "tag": "25",
+        "commands": ["Stimmen nicht zu"]
+    }, {
+        "tag": "24",
+        "commands": ["stimme zu"]
+    }, {
+        "tag": "4",
+        "commands": ["zoome rein"]
+    }, {
+        "tag": "1",
+        "commands": ["geh nach Norden"]
+    }, {
+        "tag": "22",
+        "commands": ["wechsel position"]
+    }, {
+        "tag": "23",
+        "commands": ["gehe zur alten Position zurueck"]
+    }, {
+        "tag": "6",
+        "commands": ["drehe Ansicht"]
+    }, {
+        "tag": "0",
+        "commands": ["geh nach Sueden"]
+    }, {
+        "tag": "21",
+        "commands": ["Messe Entfernung"]
+    }, {
+        "tag": "10",
+        "commands": ["setze Standort", "setze Position"]
+    }, {
+        "tag": "11",
+        "commands": ["loesche Standorte"]
+    }, {
+        "tag": "18",
+        "commands": ["zeige Standort", "zeige Position"]
+    }, {
+        "tag": "5",
+        "commands": ["zoome raus"]
+    }, {
+        "tag": "14",
+        "commands": ["zeige Hilfe"]
+    }, {
+        "tag": "15",
+        "commands": ["schliesse Hilfe"]
+    }, {
+        "tag": "3",
+        "commands": ["gehe nach Suedwesten"]
+    }, {
+        "tag": "16",
+        "commands": ["oeffne Suchfenster"]
+    }, {
+        "tag": "17",
+        "commands": ["schliesse Suchfenster"]
+    }, {
+        "tag": "19",
+        "commands": ["wechsel zu Satellit"]
+    }, {
+        "tag": "20",
+        "commands": ["wechsle zu Karte"]
+    }, {
+        "tag": "2",
+        "commands": ["gehe nach Nordost"]
+    }, {
+        "tag": "26",
+        "commands": ["zeige x Ergebnis"]
+    }, {
+        "tag": "12",
+        "commands": ["oeffne Menue"]
+    }, {
+        "tag": "13",
+        "commands": ["schliesse menue"]
+    }, {
+        "tag": "8",
+        "commands": ["Kippe Ansicht"]
+    }, {
+        "tag": "9",
+        "commands": []
+    }]
+}

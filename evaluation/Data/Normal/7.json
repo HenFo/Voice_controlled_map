@@ -1,0 +1,81 @@
+{
+    "actions": [{
+        "tag": "6",
+        "commands": ["drehe die Karte um 45 Grad", "drehe die Karte"]
+    }, {
+        "tag": "12",
+        "commands": ["zeige mir das Menue", "Menue"]
+    }, {
+        "tag": "13",
+        "commands": []
+    }, {
+        "tag": "25",
+        "commands": ["ablehnen", "lehne ab"]
+    }, {
+        "tag": "19",
+        "commands": ["wechsel zur Satellitenansicht"]
+    }, {
+        "tag": "20",
+        "commands": ["wechsel zur strassenkarte"]
+    }, {
+        "tag": "24",
+        "commands": ["akzeptieren", "ja"]
+    }, {
+        "tag": "22",
+        "commands": ["wechsel zur naechsten markierten Stelle", "wechsel zum naechsten markierten Punkt", "wechsele den Standort"]
+    }, {
+        "tag": "23",
+        "commands": ["wechsel zu dem Standort davor", "wechsle zurueck", "zeige mir den vorherigen Standort"]
+    }, {
+        "tag": "9",
+        "commands": ["norde die Karte ein", "richte die Karte aus", "drehe die Karte", "ausrichten"]
+    }, {
+        "tag": "1",
+        "commands": ["bewege die Karte nach unten"]
+    }, {
+        "tag": "8",
+        "commands": ["zeige mir einen flacheren Sichtwinkel auf die Karte"]
+    }, {
+        "tag": "4",
+        "commands": ["vergroessere die Karte", "herein zoomen", "Zoome in die Karte herein", "zeige mir eine Vergroesserung der Karte"]
+    }, {
+        "tag": "14",
+        "commands": ["zeige mir das Hilfe Menue", "Hilfe", "ich brauche hilfe", "wie funktioniert"]
+    }, {
+        "tag": "15",
+        "commands": ["schliesse das Hilfe Menue", "ich brauche keine Hilfe mehr", "schliessen", "Menue schliessen"]
+    }, {
+        "tag": "3",
+        "commands": ["bewege die Karte nach oben rechts"]
+    }, {
+        "tag": "16",
+        "commands": ["suche"]
+    }, {
+        "tag": "17",
+        "commands": ["suche schliessen", "suche beenden"]
+    }, {
+        "tag": "2",
+        "commands": ["bewege die Karte nach unten links"]
+    }, {
+        "tag": "5",
+        "commands": ["vergroessere den Kartenausschnitt", "zoome heraus", "zeige mir einen groesseren Ausschnitt"]
+    }, {
+        "tag": "26",
+        "commands": ["zeige mir Ort x"]
+    }, {
+        "tag": "18",
+        "commands": ["zeige mir meine Position", "wo bin ich", "zeige mir mich selbst"]
+    }, {
+        "tag": "0",
+        "commands": ["bewege die Karte nach rechts"]
+    }, {
+        "tag": "21",
+        "commands": ["berechne mir die Luftlinie"]
+    }, {
+        "tag": "10",
+        "commands": []
+    }, {
+        "tag": "11",
+        "commands": ["loeschen", "entferne alle Wegpunkte", "entferne die Suche"]
+    }]
+}

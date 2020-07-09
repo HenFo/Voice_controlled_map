@@ -1,0 +1,81 @@
+{
+    "actions": [{
+        "tag": "10",
+        "commands": []
+    }, {
+        "tag": "11",
+        "commands": ["Ergebnisse loeschen"]
+    }, {
+        "tag": "2",
+        "commands": ["Bewegung x ausfuehren"]
+    }, {
+        "tag": "12",
+        "commands": ["Menue aufrufen", "hauptmenue"]
+    }, {
+        "tag": "13",
+        "commands": []
+    }, {
+        "tag": "25",
+        "commands": ["ablehnen", "nein"]
+    }, {
+        "tag": "3",
+        "commands": ["Karte bewegen x"]
+    }, {
+        "tag": "14",
+        "commands": ["Hilfe"]
+    }, {
+        "tag": "15",
+        "commands": ["zurueck", "Hilfe beenden"]
+    }, {
+        "tag": "6",
+        "commands": ["Karte drehen", "Karte drehen 45 Grad", "karte drehen 45 Grad dem Uhrzeigersinn"]
+    }, {
+        "tag": "24",
+        "commands": ["bestaetigen", "ja", "okay"]
+    }, {
+        "tag": "26",
+        "commands": []
+    }, {
+        "tag": "16",
+        "commands": ["suche oeffnen", "Anfrage oeffnen"]
+    }, {
+        "tag": "17",
+        "commands": ["suche beenden"]
+    }, {
+        "tag": "4",
+        "commands": ["zoomen", "heranzoomen", "mehr Details", "naeher ran"]
+    }, {
+        "tag": "21",
+        "commands": ["Distanz abstecken", "Entfernung von", "Distanz"]
+    }, {
+        "tag": "5",
+        "commands": ["herauszoomen", "mehr Bildausschnitt", "weiter weg"]
+    }, {
+        "tag": "8",
+        "commands": ["Bildausschnitt kippen", "Bildausschnitt horizontal", "mehr Ausblick", "in die Weite schauen", "mehr anzeigen"]
+    }, {
+        "tag": "9",
+        "commands": ["Standardansicht zurueckbringen", "Kartenansicht Standard", "zurueck auf Anfang", "kartenausrichtung Norden"]
+    }, {
+        "tag": "0",
+        "commands": ["Karte nach links bewegen", "Karte nach Westen bewegen"]
+    }, {
+        "tag": "18",
+        "commands": ["meinen Standort anzeigen", "meinen Standort details", "meinen Standort reinzoomen", "zeige mich", "wo bin ich"]
+    }, {
+        "tag": "22",
+        "commands": ["gehe zum naechsten Standort", "weiter"]
+    }, {
+        "tag": "23",
+        "commands": ["zurueckgehen", "vorheriger Standort", "zurueck"]
+    }, {
+        "tag": "1",
+        "commands": ["Karte anzeigen nach x", "Bildausschnitt nach x", "Karte nach x bewegen", "Kartenausschnitt nach x bewegen"]
+    }, {
+        "tag": "19",
+        "commands": ["Satellitenbild anzeigen"]
+    }, {
+        "tag": "20",
+        "commands": ["zeige mir Auto Strassennetz", "zeige mir digitale Karte", "digitale Karte wechseln", "wechseln zu anderer Kartendarstellung"]
+    }]
+}

@@ -1,0 +1,81 @@
+{
+    "actions": [{
+        "tag": "2",
+        "commands": ["scrollen"]
+    }, {
+        "tag": "0",
+        "commands": ["nach rechts verschieben"]
+    }, {
+        "tag": "16",
+        "commands": ["suche"]
+    }, {
+        "tag": "17",
+        "commands": ["suche schliessen"]
+    }, {
+        "tag": "4",
+        "commands": ["reinzoomen", "zoomen"]
+    }, {
+        "tag": "12",
+        "commands": ["Menue aufrufen"]
+    }, {
+        "tag": "13",
+        "commands": ["Menue schliessen"]
+    }, {
+        "tag": "14",
+        "commands": ["Hilfe aufrufen", "Hilfe"]
+    }, {
+        "tag": "15",
+        "commands": ["Hilfe schliessen"]
+    }, {
+        "tag": "9",
+        "commands": ["Norden"]
+    }, {
+        "tag": "19",
+        "commands": ["Satellitenkarte"]
+    }, {
+        "tag": "20",
+        "commands": ["staedtekarte", "strassenkarte"]
+    }, {
+        "tag": "18",
+        "commands": ["Standort bestimmen", "orten"]
+    }, {
+        "tag": "6",
+        "commands": ["Karte drehen"]
+    }, {
+        "tag": "25",
+        "commands": ["ablehnen"]
+    }, {
+        "tag": "8",
+        "commands": ["Karte kippen"]
+    }, {
+        "tag": "5",
+        "commands": ["rauszoomen"]
+    }, {
+        "tag": "26",
+        "commands": ["Ergebnis x auswaehlen"]
+    }, {
+        "tag": "24",
+        "commands": ["zustimmen"]
+    }, {
+        "tag": "1",
+        "commands": ["Karte nach Norden verschieben"]
+    }, {
+        "tag": "22",
+        "commands": ["naechstes Ergebnis"]
+    }, {
+        "tag": "23",
+        "commands": ["vorheriges Ergebnis"]
+    }, {
+        "tag": "21",
+        "commands": ["Entfernung bestimmen", "Entfernung zwischen zwei Orten bestimmen"]
+    }, {
+        "tag": "3",
+        "commands": ["Karte verschieben"]
+    }, {
+        "tag": "10",
+        "commands": ["Orte suchen"]
+    }, {
+        "tag": "11",
+        "commands": ["Suchverlauf loeschen"]
+    }]
+}
