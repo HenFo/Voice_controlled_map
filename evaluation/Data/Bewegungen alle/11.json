@@ -1,0 +1,93 @@
+{
+    "actions": [{
+        "tag": "N",
+        "commands": ["Karte nach oben schieben", "Karte nach oben verschieben", "Karte nach Norden verschieben"]
+    }, {
+        "tag": "O",
+        "commands": ["Karte nach rechts schieben", "Karte nach rechts verschieben", "Karte nach Osten verschieben"]
+    }, {
+        "tag": "S",
+        "commands": ["Karte nach unten schieben", "Karte nach unten verschieben", "Karte nach Sueden verschieben"]
+    }, {
+        "tag": "W",
+        "commands": ["Karte nach links schieben", "Karte nach links verschieben", "Karte nach Westen verschieben"]
+    },{
+        "tag": "NO",
+        "commands": ["Karte nach oben rechts verschieben", "Karte nach Nordost verschieben", "Karte in Richtung Nordost verschieben"]
+    }, {
+        "tag": "SO",
+        "commands": ["Karte nach unten rechts verschieben", "Karte nach Suedost verschieben", "Karte in Richtung Suedost verschieben"]
+    }, {
+        "tag": "SW",
+        "commands": ["Karte nach unten links verschieben", "Karte nach Suedwest verschieben", "Karte in Richtung Suedwest verschieben"]
+    }, {
+        "tag": "NW",
+        "commands": ["Karte nach oben links verschieben", "Karte nach Nordwest verschieben", "Karte in Richtung Nordwest verschieben"]
+    },{
+        "tag": "16",
+        "commands": ["oeffne das Suchfenster"]
+    }, {
+        "tag": "17",
+        "commands": ["schliesse du das Suchfenster"]
+    }, {
+        "tag": "9",
+        "commands": ["dreh die Karte"]
+    }, {
+        "tag": "12",
+        "commands": ["oeffne das menue"]
+    }, {
+        "tag": "13",
+        "commands": ["schliesse das Menue"]
+    }, {
+        "tag": "25",
+        "commands": ["ablehnen"]
+    }, {
+        "tag": "24",
+        "commands": ["bestaetigen"]
+    }, {
+        "tag": "6",
+        "commands": ["Karte in Richtung nordwest drehen"]
+    }, {
+        "tag": "5",
+        "commands": ["rauszoomen"]
+    }, {
+        "tag": "26",
+        "commands": ["Ziel x auswaehlen", "oeffne Ort x"]
+    }, {
+        "tag": "19",
+        "commands": ["wechsel zur Satellitenansicht"]
+    }, {
+        "tag": "20",
+        "commands": ["wechsel zur kartenansicht"]
+    }, {
+        "tag": "8",
+        "commands": ["wechsel in 3D Ansicht"]
+    }, {
+        "tag": "10",
+        "commands": ["Stecknadel setzen"]
+    }, {
+        "tag": "11",
+        "commands": ["alle Stecknadeln loeschen"]
+    }, {
+        "tag": "22",
+        "commands": ["naechste Moeglichkeit"]
+    }, {
+        "tag": "23",
+        "commands": ["zurueck"]
+    }, {
+        "tag": "18",
+        "commands": ["meinen Standort anzeigen"]
+    }, {
+        "tag": "4",
+        "commands": ["reinzoomen"]
+    }, {
+        "tag": "21",
+        "commands": ["Punkte verbinden", "Luftlinie angeben"]
+    }, {
+        "tag": "14",
+        "commands": ["Hilfe oeffnen"]
+    }, {
+        "tag": "15",
+        "commands": ["Hilfe schliessen"]
+    }]
+}

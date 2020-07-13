@@ -1,0 +1,93 @@
+{
+    "actions": [{
+        "tag": "N",
+        "commands": ["nach Norden"]
+    }, {
+        "tag": "O",
+        "commands": ["nach Osten"]
+    }, {
+        "tag": "S",
+        "commands": ["nach Sueden"]
+    }, {
+        "tag": "W",
+        "commands": ["nach Westen"]
+    },{
+        "tag": "NO",
+        "commands": ["nach Nordosten"]
+    }, {
+        "tag": "SO",
+        "commands": ["nach Suedosten"]
+    }, {
+        "tag": "SW",
+        "commands": ["nach Suedwesten"]
+    }, {
+        "tag": "NW",
+        "commands": ["nach Nordwesten"]
+    },{
+        "tag": "21",
+        "commands": ["Messe von A nach B"]
+    }, {
+        "tag": "24",
+        "commands": ["bestaetigen"]
+    }, {
+        "tag": "25",
+        "commands": ["ablehnen"]
+    }, {
+        "tag": "14",
+        "commands": ["Hilfe"]
+    }, {
+        "tag": "15",
+        "commands": ["Hilfe schliessen"]
+    }, {
+        "tag": "26",
+        "commands": ["Ort x auswaehlen"]
+    }, {
+        "tag": "18",
+        "commands": ["mein Standort anzeigen"]
+    }, {
+        "tag": "9",
+        "commands": ["einnorden", "nach Norden ausrichten"]
+    }, {
+        "tag": "8",
+        "commands": ["Perspektive wechseln"]
+    }, {
+        "tag": "19",
+        "commands": ["Satellitenbild"]
+    }, {
+        "tag": "20",
+        "commands": ["kartenansicht"]
+    }, {
+        "tag": "16",
+        "commands": ["suche"]
+    }, {
+        "tag": "17",
+        "commands": ["suche schliessen"]
+    }, {
+        "tag": "22",
+        "commands": ["weiter"]
+    }, {
+        "tag": "23",
+        "commands": ["zurueck"]
+    }, {
+        "tag": "10",
+        "commands": ["Marker setzen"]
+    }, {
+        "tag": "11",
+        "commands": ["Markierungen loeschen"]
+    }, {
+        "tag": "5",
+        "commands": ["rauszoomen"]
+    }, {
+        "tag": "6",
+        "commands": ["gegen den Uhrzeigersinn drehen"]
+    }, {
+        "tag": "12",
+        "commands": ["Menue"]
+    }, {
+        "tag": "13",
+        "commands": ["Menue ausblenden"]
+    }, {
+        "tag": "4",
+        "commands": ["reinzoomen"]
+    }]
+}

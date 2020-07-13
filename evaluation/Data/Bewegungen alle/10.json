@@ -1,0 +1,96 @@
+{
+    "actions": [{
+        "tag": "N",
+        "commands": ["scrolle nach Norden", "bewege die Karte nach Norden"]
+    }, {
+        "tag": "O",
+        "commands": ["scrolle nach Osten", "bewege die Karte nach Osten"]
+    }, {
+        "tag": "S",
+        "commands": ["scrolle nach Sueden", "bewege die Karte nach Sueden"]
+    }, {
+        "tag": "W",
+        "commands": ["scrolle nach Westen", "bewege die Karte nach Westen"]
+    },{
+        "tag": "NO",
+        "commands": ["beweg dich auf der Karte nach Nordosten"]
+    }, {
+        "tag": "SO",
+        "commands": ["beweg dich auf der Karte nach Suedosten"]
+    }, {
+        "tag": "SW",
+        "commands": ["beweg dich auf der Karte nach Suedwesten"]
+    }, {
+        "tag": "NW",
+        "commands": ["beweg dich auf der Karte nach Nordwesten"]
+    },{
+        "tag": "2",
+        "commands": []
+    }, {
+        "tag": "21",
+        "commands": ["miss die Entfernung"]
+    }, {
+        "tag": "9",
+        "commands": ["dreh die Karte"]
+    }, {
+        "tag": "25",
+        "commands": ["verweigere"]
+    }, {
+        "tag": "14",
+        "commands": ["Hilfe"]
+    }, {
+        "tag": "15",
+        "commands": ["schliesse die Hilfe", "blende hilfe aus"]
+    }, {
+        "tag": "24",
+        "commands": ["akzeptiere"]
+    }, {
+        "tag": "5",
+        "commands": ["zoome aus der Karte heraus"]
+    }, {
+        "tag": "12",
+        "commands": ["oeffne das menue"]
+    }, {
+        "tag": "13",
+        "commands": ["schliesse das Menue"]
+    }, {
+        "tag": "26",
+        "commands": ["gehe zu Ort x"]
+    }, {
+        "tag": "4",
+        "commands": ["zoome in die Karte hinein"]
+    }, {
+        "tag": "19",
+        "commands": ["zeige Satellitenansicht"]
+    }, {
+        "tag": "20",
+        "commands": ["zeige die Standardkarte"]
+    }, {
+        "tag": "10",
+        "commands": ["markiere diesen Ort"]
+    }, {
+        "tag": "11",
+        "commands": ["loesche diesen Ort"]
+    }, {
+        "tag": "22",
+        "commands": ["springe von A nach B"]
+    }, {
+        "tag": "23",
+        "commands": ["springe zurueck zu dem Ort"]
+    }, {
+        "tag": "16",
+        "commands": ["suche"]
+    }, {
+        "tag": "17",
+        "commands": ["schliesse die Suche"]
+    }, {
+        "tag": "6",
+        "commands": ["drehe die Karte"]
+    }, {
+        "tag": "8",
+        "commands": ["neige die Karte"]
+    }, {
+        "tag": "18",
+        "commands": ["finde meinen Standort", "ermittle meinen Standort"]
+    }]
+}

@@ -1,0 +1,93 @@
+{
+    "actions": [{
+        "tag": "N",
+        "commands": ["nach oben scrollen", "nach oben"]
+    }, {
+        "tag": "O",
+        "commands": ["nach rechts scrollen", "nach rechts"]
+    }, {
+        "tag": "S",
+        "commands": ["nach unten scrollen", "nach unten"]
+    }, {
+        "tag": "W",
+        "commands": ["nach links scrollen", "nach links"]
+    },{
+        "tag": "NO",
+        "commands": ["nach rechts oben verschieben"]
+    }, {
+        "tag": "SO",
+        "commands": ["nach rechts unten verschieben"]
+    }, {
+        "tag": "SW",
+        "commands": ["nach links unten verschieben"]
+    }, {
+        "tag": "NW",
+        "commands": ["nach links oben verschieben"]
+    },{
+        "tag": "8",
+        "commands": ["Perspektive"]
+    }, {
+        "tag": "6",
+        "commands": ["nach links drehen"]
+    }, {
+        "tag": "10",
+        "commands": ["Ziel markieren"]
+    }, {
+        "tag": "11",
+        "commands": ["Ziel loeschen"]
+    }, {
+        "tag": "24",
+        "commands": ["bestaetigen"]
+    }, {
+        "tag": "25",
+        "commands": ["ablehnen"]
+    }, {
+        "tag": "21",
+        "commands": ["Entfernung berechnen"]
+    }, {
+        "tag": "14",
+        "commands": ["Hilfe menue oeffnen"]
+    }, {
+        "tag": "15",
+        "commands": ["Hilfe Menue ausblenden"]
+    }, {
+        "tag": "9",
+        "commands": ["Karte einnorden"]
+    }, {
+        "tag": "26",
+        "commands": ["Ergebnis x auswaehlen"]
+    }, {
+        "tag": "5",
+        "commands": ["rauszoomen"]
+    }, {
+        "tag": "4",
+        "commands": ["reinzoomen"]
+    }, {
+        "tag": "18",
+        "commands": ["Standort zeigen"]
+    }, {
+        "tag": "12",
+        "commands": ["Menue oeffnen"]
+    }, {
+        "tag": "13",
+        "commands": ["Menue schliessen"]
+    }, {
+        "tag": "22",
+        "commands": ["naechstes Ziel anzeigen"]
+    }, {
+        "tag": "23",
+        "commands": ["vorheriges Ziel anzeigen"]
+    }, {
+        "tag": "16",
+        "commands": ["suche oeffnen"]
+    }, {
+        "tag": "17",
+        "commands": ["suche schliessen"]
+    }, {
+        "tag": "19",
+        "commands": ["Satellitenkarte einblenden"]
+    }, {
+        "tag": "20",
+        "commands": ["Satellitenkarte ausblenden"]
+    }]
+}

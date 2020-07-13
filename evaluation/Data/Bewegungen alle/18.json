@@ -1,0 +1,90 @@
+{
+    "actions": [{
+        "tag": "N",
+        "commands": []
+    }, {
+        "tag": "O",
+        "commands": []
+    }, {
+        "tag": "S",
+        "commands": []
+    }, {
+        "tag": "W",
+        "commands": []
+    },{
+        "tag": "NO",
+        "commands": ["verschiebe den Kartenausschnitt nach 1 Uhr 30"]
+    }, {
+        "tag": "SO",
+        "commands": ["verschiebe den Kartenausschnitt nach 4 Uhr 30"]
+    }, {
+        "tag": "SW",
+        "commands": ["verschiebe den Kartenausschnitt nach 7 Uhr 30"]
+    }, {
+        "tag": "NW",
+        "commands": ["verschiebe den Kartenausschnitt nach 10 Uhr 30"]
+    },{
+        "tag": "18",
+        "commands": ["wo befinde ich mich"]
+    }, {
+        "tag": "25",
+        "commands": []
+    }, {
+        "tag": "5",
+        "commands": ["zeige mir einen groesseren Kartenausschnitt"]
+    }, {
+        "tag": "10",
+        "commands": []
+    }, {
+        "tag": "11",
+        "commands": ["entferne die Orte von der Karte"]
+    }, {
+        "tag": "19",
+        "commands": ["zeige mir die Karte als Satellitenbild"]
+    }, {
+        "tag": "20",
+        "commands": ["zeige mir die Karte als normale Karte"]
+    }, {
+        "tag": "6",
+        "commands": ["drehe die Karten gegen den Uhrzeigersinn"]
+    }, {
+        "tag": "16",
+        "commands": ["ich moechte eine Funktion suchen"]
+    }, {
+        "tag": "17",
+        "commands": ["ich moechte die Suche beenden"]
+    }, {
+        "tag": "12",
+        "commands": ["zeige mir das Menue"]
+    }, {
+        "tag": "13",
+        "commands": ["entferne das Menue"]
+    }, {
+        "tag": "4",
+        "commands": ["zoome in den Kartenausschnitt"]
+    }, {
+        "tag": "24",
+        "commands": ["akzeptiere"]
+    }, {
+        "tag": "21",
+        "commands": ["zeige mir die Entfernung"]
+    }, {
+        "tag": "22",
+        "commands": []
+    }, {
+        "tag": "23",
+        "commands": []
+    }, {
+        "tag": "14",
+        "commands": ["ich brauche hilfe"]
+    }, {
+        "tag": "15",
+        "commands": ["ich brauche keine Hilfe mehr", "beseitige den Reiter"]
+    }, {
+        "tag": "26",
+        "commands": ["zeige mir vergroessert Ort x"]
+    }, {
+        "tag": "6",
+        "commands": ["Kippe die Ansicht nach hinten in Form einer 3D Ansicht"]
+    }]
+}

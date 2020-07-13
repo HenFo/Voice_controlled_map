@@ -1,0 +1,93 @@
+{
+    "actions": [{
+        "tag": "N",
+        "commands": ["Karte nach Norden bewegen", "Karte nach oben bewegen"]
+    }, {
+        "tag": "O",
+        "commands": ["Karte nach Osten bewegen", "Karte nach rechts bewegen"]
+    }, {
+        "tag": "S",
+        "commands": ["Karte nach Sueden bewegen", "Karte nach unten bewegen"]
+    }, {
+        "tag": "W",
+        "commands": ["Karte nach Westen bewegen", "Karte nach links bewegen"]
+    },{
+        "tag": "NO",
+        "commands": ["Karte nach Nordosten bewegen", "Kartenausschnitt nach Nordosten bewegen"]
+    }, {
+        "tag": "SO",
+        "commands": ["Karte nach Suedosten bewegen", "Kartenausschnitt nach Suedosten bewegen"]
+    }, {
+        "tag": "SW",
+        "commands": ["Karte nach Suedwesten bewegen", "Kartenausschnitt nach Suedwesten bewegen"]
+    }, {
+        "tag": "NW",
+        "commands": ["Karte nach Nordwesten bewegen", "Kartenausschnitt nach Nordwesten bewegen"]
+    },{
+        "tag": "8",
+        "commands": ["Vogelperspektive anzeigen"]
+    }, {
+        "tag": "14",
+        "commands": ["Hilfe anzeigen"]
+    }, {
+        "tag": "15",
+        "commands": ["Hilfe ausblenden", "Hilfe schliessen"]
+    }, {
+        "tag": "6",
+        "commands": ["Karte drehen", "Karte im Uhrzeigersinn drehen", "Karte rotieren"]
+    }, {
+        "tag": "24",
+        "commands": ["akzeptieren", "bestaetigen"]
+    }, {
+        "tag": "9",
+        "commands": ["nach Norden ausrichten"]
+    }, {
+        "tag": "4",
+        "commands": ["in die Karte zoomen", "heranzoomen", "hineinzoomen", "Lupe plus"]
+    }, {
+        "tag": "25",
+        "commands": ["ablehnen"]
+    }, {
+        "tag": "19",
+        "commands": ["auf Satellitenansicht wechseln"]
+    }, {
+        "tag": "20",
+        "commands": ["Kartenansicht umschalten", "Satellitenansicht verlassen", "in schematische Kartendarstellung wechseln"]
+    }, {
+        "tag": "21",
+        "commands": ["Distanz messen", "Distanzmarker setzen"]
+    }, {
+        "tag": "12",
+        "commands": ["Menue aufrufen", "Menue anzeigen", "Menue einblenden"]
+    }, {
+        "tag": "13",
+        "commands": ["Menue ausblenden", "Menue schliessen", "Menue verbergen"]
+    }, {
+        "tag": "16",
+        "commands": ["suche anzeigen", "Suchfeld oeffnen", "suche einblenden"]
+    }, {
+        "tag": "17",
+        "commands": ["suche verbergen", "suche schliessen", "zurueck zur Karte", "Karte fokussieren", "Karte in den Vordergrund"]
+    }, {
+        "tag": "22",
+        "commands": ["naechster Ort", "naechster Auswahl", "naechster Punkt in der Liste", "weiter", "vorwaerts"]
+    }, {
+        "tag": "23",
+        "commands": ["zurueck", "letzter Ort", "vorheriger Ort", "vorherigen Ort anzeigen", "vorheriger Punkt in der Liste"]
+    }, {
+        "tag": "10",
+        "commands": ["Ort markieren", "Stecknadel setzen", "Ort speichern"]
+    }, {
+        "tag": "11",
+        "commands": ["Orte loeschen", "Stecknadeln loeschen", "Karteninhalt zuruecksetzen", "leeren", "eigene Karteninhalte leeren"]
+    }, {
+        "tag": "5",
+        "commands": ["herauszoomen", "aus der Karte heraus zoomen", "Kartenausschnitt verkleinern"]
+    }, {
+        "tag": "18",
+        "commands": []
+    }, {
+        "tag": "26",
+        "commands": ["Ort x auswaehlen", "Ort x selektieren"]
+    }]
+}

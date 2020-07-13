@@ -1,0 +1,93 @@
+{
+    "actions": [{
+        "tag": "N",
+        "commands": ["verschiebe Karte nach oben", "gehe nach Norden"]
+    }, {
+        "tag": "O",
+        "commands": ["verschiebe Karte nach rechts", "gehe nach Osten"]
+    }, {
+        "tag": "S",
+        "commands": ["verschiebe Karte nach unten", "gehe nach Sueden"]
+    }, {
+        "tag": "W",
+        "commands": ["verschiebe Karte nach links", "gehe nach Westen"]
+    },{
+        "tag": "NO",
+        "commands": ["gehe nach rechts oben", "gehe nach Nordosten"]
+    }, {
+        "tag": "SO",
+        "commands": ["gehe nach rechts unten", "gehe nach Suedost"]
+    }, {
+        "tag": "SW",
+        "commands": ["gehe nach links unten", "gehe nach Suedwesten"]
+    }, {
+        "tag": "NW",
+        "commands": ["gehe nach links oben", "gehe nach Nordwesten"]
+    },{
+        "tag": "10",
+        "commands": ["verschiebe die Karte", "gehe nach Suedost"]
+    }, {
+        "tag": "11",
+        "commands": ["loesche Ziele"]
+    }, {
+        "tag": "12",
+        "commands": ["oeffne Menue"]
+    }, {
+        "tag": "13",
+        "commands": ["schliesse menue"]
+    }, {
+        "tag": "26",
+        "commands": ["gehe zu Ort x"]
+    }, {
+        "tag": "14",
+        "commands": ["oeffne Hilfe"]
+    }, {
+        "tag": "15",
+        "commands": ["schliesse Hilfe"]
+    }, {
+        "tag": "9",
+        "commands": ["richte Karte nach Norden aus"]
+    }, {
+        "tag": "6",
+        "commands": ["drehe Karte nach links"]
+    }, {
+        "tag": "25",
+        "commands": ["lehne ab"]
+    }, {
+        "tag": "16",
+        "commands": ["oeffne suche"]
+    }, {
+        "tag": "17",
+        "commands": ["schliesse Suche"]
+    }, {
+        "tag": "22",
+        "commands": ["zentriere den naechsten Punkt"]
+    }, {
+        "tag": "23",
+        "commands": ["gehe zum letzten Punkt"]
+    }, {
+        "tag": "24",
+        "commands": ["nehme an"]
+    }, {
+        "tag": "4",
+        "commands": ["zoome"]
+    }, {
+        "tag": "18",
+        "commands": ["zeig Standort"]
+    }, {
+        "tag": "5",
+        "commands": ["verkleinerer"]
+    }, {
+        "tag": "21",
+        "commands": ["berechnen Luftlinie"]
+    }, {
+        "tag": "8",
+        "commands": ["wechsel in horizontale Perspektive"]
+    }, {
+        "tag": "19",
+        "commands": ["zeige Satellitenbild"]
+    }, {
+        "tag": "20",
+        "commands": ["zeige kartenansicht"]
+    }]
+}
