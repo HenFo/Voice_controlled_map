@@ -1,0 +1,26 @@
+nach osten verschieben, 3, 4
+nach nordosten, 5, 5
+strecke abstecken, 4, 4
+3d modus, 5, 3
+menü öffnen, 5,5
+-
+rein zoomen, 5,5
+gegen den Uhzeigersinn drehen, 5,4
+nutert bestätigen, 4, 3
+x ablehnen, 5,5
+sehenswürdigkeiten anzeigen, 4, 4
+letzte sehenswürdigkeit anzeigen, 4, 4
+aktuellen Standort anzeigen, 5,5
+Suchfenster öffnen, 5,5
+suchfenster schließen, 5,5
+Karte norden, karte einnorden, 2, 3
+Hilfe öffnen, 4, 4
+hilfe schließen, hilfefenster schließen, 4,4
+Wegpunkt setzen, markiereung setzen, 4, 4
+Wegpunkte löschen/entfernen, 5,4
+satelitenaufnahme, 5, 5
+grafikmodus wechseln, 4,4
+herauszomne, 5,5
+nach norden verschieben, 4,5
+Ort c anzeigen,4,4
+-

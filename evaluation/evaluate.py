@@ -35,7 +35,7 @@ def combine_data_panning(dirpath: str, output_name: str):
         for action in commands[ACTION]:
             stemmed = [
                 " ".join(stemmer.stem(x)
-                         for x in word_tokenize(command) if x not in stopwords)
+                         for x in sorted(word_tokenize(command)) if x not in stopwords)
                 for command in action[COMMANDS]
             ]
 
@@ -61,7 +61,7 @@ def reverse_tag_commands(tag_command: dict, output_name: str):
     for tag, commands in tag_command.items():
         for command in commands:
             if command != "":
-                command = " ".join(sorted(word_tokenize(command)))
+                # command = " ".join(sorted(word_tokenize(command)))
                 if command in command_tags:
                     command_tags[command].append(tag)
                 else:

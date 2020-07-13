@@ -1,0 +1,26 @@
+ziege mir freizeitparks in der nähe, zeige mir die nächste tankstelle, 5, 5
+ergebnisse löschen, 4, 5
+bewgung südwestlich ausführen, foöge dem fluss südlich, nächste größere stadt, 2, 5
+menü aufrufen, hauptmenp, 5, 5
+-
+benutzerbdu ablehnen, nein, 5, 5
+karte bewegen nordöstlich, 5,5
+Hilfe, 5,5
+zurück, hilfe beenden, 5, 5
+karte drehen, karte drehen 45 Grad, karte drehen 45 Grad dem Urhzeigersinn, 5,5
+Bneutzerb bestätigen, ja, okay, 5,5
+Suchergebnis (ort)a anzegnen, suchergebnis a details, 3,5
+Suche öffnen, anfrage öffnen, 5,4
+suceh beenden, 5,5
+zoomen, herreinzoomen, mehr details, näher ran, 4,4
+distanz abstecken zwoschen punkt a b und z, entfernung von abc, distanz, 5,4
+herraus zoomen, mehr bildausschnitt, weitr weg, 3,3
+bildausschnitt kippen, ildausschnitt horizontal, mehr ausblick, in die weiter schauen, mehr anzeigen, 3, 5
+Standardansicht zurückbringen, kartenansicht standard, zurück auf anfang, karte ausrichtung norden, 5,5
+karte nach links bewegen, karte nach westen bewegen, nach westen bewegen, 5, 5
+meinen standort anzeigen, meinen standort details, meinen standort rein zoomen, zeig emich, wo bin ich, 5,5
+gehen zu nächster standort, weiter, next, 5,5
+zurück gehen, vorheriger standort, zurück, back, 5,5
+karte anzeigen nach oben, bildausschnitt nach oben, kart enach norden bewegen, kartenauschnitt nach nrden bewegen, 3,5
+staelitenbild anzeigen, 5,3
+zeige mir autostraßen netz, zeige mir digitlae karte, digitale karte wechseln, wechseln zu digitale karte, wechseln zu andere kartendarstellung, 4,4

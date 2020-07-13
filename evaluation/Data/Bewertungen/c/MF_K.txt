@@ -1,0 +1,26 @@
+zoom näher ran, 5, 4
+verschiebe die karte nach rechts, 2, 2
+verschiebe die karte nach links, 2, 2
+zoom auf meinen tsnadort, 5, 5
+verändere die karte zu geologische karte, 4, 1
+verändere die karte zu gezeichneten Ansicht, 4, 1
+-
+drehe die Karte, 3, 2
+lehne die x ab, 5, 5
+stimme den x zu, 5, 5
+zoome aus der karte raus, 5, 4
+veränder de kartenansichtswinkel, 3, 3
+markiere den Punkt, 3, 3
+entferne den Punkt von der karte, 4, 4
+öffne die suche, 5, 5
+schließe die Suche, 5,5
+scrolle nach süden, 3, 2
+scrolle nach südwesten, 3,2
+zeige die Hilfe an, 5,5
+schließe die Hilfe, 5,5
+richte die Karte nach Norden aus, 4,4
+zoome auf das zweite ergebnis, 3, 3
+scrolle nach südwesten, 3,3
+zeige das Menü asn, 5,5
+schließe das Menü, 5,5
+scrolle nach norden, 4,3

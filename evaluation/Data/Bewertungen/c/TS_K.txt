@@ -1,0 +1,26 @@
+wo befinde ich mich, 5,5
+zeige mir die nutzerbedigungen, weg klicken, 5,5
+zeige mir einen größeren kartenausschnitt, 5,4
+zeige mir die orte a,b,c auf der karte, 3,2
+entferne die orte von der karte, 5,5
+zeige mir die karte als satelitenbild, 5,5
+zeige mir die karte als normale karte, 5,5
+drehe die karte entgegen des Uhrziegersinns auf 10 Uhr 30, 5,5
+ich möchte eine funktion suchen, 5,5
+ich möchte die suche beenden, 5,5
+zeige mir das menü, 5,5
+entferne das menü, 5,5
+zoome in den kartenausschnitt, 5,4
+ich akzeptiere die x, 5,5
+verschiebe den kartenausschnitt nach 7:30 Uhr, 5,4
+zeige mir die entfernungen zwischen a-b und a-c, 5,5
+zeige mir einen karte von new-york, 4,4
+ziege mir den standort der Freiheitsstatur, 5,5
+verschiebe die karte in richtung der pfeile, 4,4
+ich brauche hilfe, 5,5
+ich brauche keine Hilfe mehr, besitige den reiter, 5,5
+zeige mir vergrößert ort a, 4,4
+kippe die Karte nach hinten in form einer 3d ansicht, 3,2
+-
+-
+-

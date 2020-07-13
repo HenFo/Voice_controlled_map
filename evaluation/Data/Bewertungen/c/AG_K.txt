@@ -1,0 +1,26 @@
+messen von ... nach ..., 2, 4
+bestätigen, 5, 5
+ablehnen, 5,5
+Hilfe, 4, 4
+hilfe schließen, 3, 4
+Ort d auswählen, 3, 2
+meinen standort anzeigen, 3, 4
+einnorden, nach norden ausrihten, 4, 4
+perspektive wechseln, 2, 3
+satelitenbild, 4,5
+Kartenansicht, 3,4
+nach nordosten, 4, 4
+Suche, 5,5
+Suche schließen, 5,5
+weiter, 4,4
+zurück, 4,4
+Marker setzen, 3, 3
+markiereungen löschen, 5,5
+rauszommen, 5,5
+gegen den Uhrzeigersinn drehen, 3,5
+nach südosten, 3,4
+nach osten, 4,4
+Mneü, 5,5
+menü ausblenden, 5,5
+rein zoomen, 5,5
+nach süden, 5,5

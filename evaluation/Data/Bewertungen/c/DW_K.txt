@@ -1,0 +1,25 @@
+miss die entfernung, 2, 4
+drehe die Karte, 5, 5
+schließe die Benutzerbedngungen, verweigere die x, 4, 5
+Hilfe, 5, 5
+schließe die Hilfe, blende Hilfe aus, 4, 5
+akzeptiere die x, 5, 5
+zoome aus der KArte heraus, 5, 5
+scrolle nach Norden, bewege die Karte nach Norden, 5, 5
+öffne das Menü, 5, 5
+schließe das Menü ,5,5
+geeh zu Ort b, 4, 4
+zoom in die Karte hinein, 5,5
+zeige satelitenansicht, 5,5
+zeige die Standardkarte, 1, 3
+markiere diesen Ort, 3, 4
+lösche diese Orte, 5, 5
+springe von a nach b, 2, 3
+springe zurpck zu dem ort, 2, 3
+suche, 5,5
+schließe dei Suche, 5,5
+drehe die Karte, 5, 5
+beweg dich auf der Karte nach südwesten, 4, 5
+beweg dich auf der Karte nach südwesten, 5, 5
+neige die Karte, 5, 5
+finde meinen Standort, ermittle meinen Standort, 5, 5

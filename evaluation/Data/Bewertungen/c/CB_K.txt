@@ -1,0 +1,26 @@
+öfnne menü, 5, 5
+schließe menü, schließe menübar, 4, 5
+zeichne zwei aneinander liegende linien, 3, 1
+öffne die hulfe, öffne hilfemenü, 5, 5
+schließe hilfe, schließe hilfe fenster, 5, 5
+öffne die suche, öffne suchbar, 5,5
+schließe suche, schließe suchbar, 5,5
+scrolle nach osten, bewge die karte nach osten, beweg den Mauszeiger nach osten, 4, 3
+zoome aus der karte, 5,5
+zoome in die karte, 5,5
+akzeptiere die benutzerbedingungen, drücke auf den grünen button bei den benutzerbedingungen, 5,5
+zeige den standort auf der karte, zeige meinen standort auf der karte, - und zoome in die karte, 4, 5
+lehne die benutzerbdingung ab, 5,5
+richte die karte in meine blickrichtung aus, 4,5
+gehe auf der karte nach nordosten, 3,3
+markiere ort auf der karte, markiere den aktuellen ort auf der karte, 3, 3
+lösche den markierten Ort, 5,5
+zoome auf ein bestimmtes ergebnis auf der karte, 4, 2
+neige die karte, 5, 5
+klicke auf den knopf um den nächsten ort zu erreichen, 3, 3
+drücke auf den button umd auf den vorherigen markierten ort zu kommen, 3,3
+richte die karte nach norde aus, 5,5
+ändere den kartenhintergrund auf satelitenbild, 5,5
+ändere den kartenhintergrund auf den man die straßen und städtenamen sieht, 3,2
+verschiebe die karte nach osen, 5, 5
+vershciebe die karte nach norden, geh mit der maus nach norden, 5,5

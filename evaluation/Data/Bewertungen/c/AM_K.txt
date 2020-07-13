@@ -1,0 +1,26 @@
+bewege karte nach süden, 4, 4
+bewege Karte nach Osten, 4, 4
+öffne suchfeld, 5, 5
+suche beenden, 5,5
+wechsle zu satelitenansicht, 4, 5
+wechsle zu straßenkarte, 2, 3
+bewege cursor nach südwest, 3,3
+drehung um 45 Grad gegen den uhrzeigersinn, 3,4
+öffne menü, 5,5
+menüs chließen, 5,5
+hilfe, 5,5
+hilfe beenden, 5,5
+wechsle ansihtswinkel, 1, 2
+bewege cuursor nach südost, 4,5
+raus zoomen, 5,5
+rein zoomen, 5,5
+messe netfernung zwischen punkt a und b, 3, 3
+orientierung nach norden, 4,4
+zeige Standort 4, 3,3
+markiere standort, 4,4
+alle standorte löschen, 5,4
+ben akzeptieren, 5,5
+springe zum nächstn standort, 4,4
+springe zum vorherigen standort, 4,4
+springe zu meinem Standort, 3,4
+x ablehnen, 5,5

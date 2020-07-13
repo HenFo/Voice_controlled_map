@@ -1,0 +1,26 @@
+menü öffnen, 5, 5
+menü schließen, 5,5
+in die Karte zoomen, 5,4
+blickwinkel auf die Karte verändern, 3,1
+distanz zu einem standort bestimmen, 4,4
+Karte nach osten verschieben, 3,2
+Karte nach osten verschieben, 4,4
+auf meinen Standort zoomen, 4,4
+Benutzerbedingungen öffnen, 4,4
+Karte nach suedwesten verschieben, 5,4
+Kartenmodus wechseln, 4,2
+Kartenmodus wechseln, 4,2
+Kate nach sueden verschieben, 4,4
+Suchleiste öffnen, 5,5
+Suchleiste schießen, 5,5
+x ablehnen, 5,5
+aus der Karte zoomen, 5,5
+gespeicherte Standorte anzeigen, 4,4
+zwischen gesoeicherten standorten wechseln, 4,3
+Hilf eöffnen, 5,5
+hilfe schließen, 5,5
+karte nach norden ausrichten, 5,5
+karte nach nordosten ausrichten, 5,5
+standorte markieren, 5,5
+gespeicherte standorte löschen, 5,5
+einen gespeicherten standort auf der karte springen, 3,4

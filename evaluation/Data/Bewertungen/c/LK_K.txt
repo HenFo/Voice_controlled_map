@@ -1,0 +1,28 @@
+stimme Bedingung nicht zu, 3, 4
+stimme Bedingung zu, 3, 4
+zoome rein, 5, 5
+gehe nach Norden, 4, 4
+wechsle Position, 4, 2
+gehe zu alter position zurück, 4, 2
+drehe Ansicht, 4, 2
+gehe nach süden, 4,3
+messe entfernung, 3, 1
+setze Standort, setze position, 4, 3
+lösche Standorte, 3, 1
+zeige Standort, zeige Position, 5, 4
+zoome raus, 5, 4
+iege Hilfe, 5, 5
+schkeße Hilfe, 5,5
+gehe nach südwesten, 4, 2
+öffne Suchfenster, 5,5
+schließe Suchfenster, 5,5
+wechsle zu satelit, 4, 4
+wechsle zu Karte, 5, 5
+gehe nach Nordost, 5, 2
+zeieg drittes ergebnis, 4, 4
+öffne Menü, 5, 5
+schließe Menp, 5,5
+kippe ansicht, 4, 3
+zeige aus vershiedenen Himmelsrichtungen, 4, 3
+
+

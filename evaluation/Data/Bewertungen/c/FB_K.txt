@@ -1,0 +1,26 @@
+dreh die karte um 45 grad, drehe die karte, 5, 5
+zeige mir das menü, menü, 5, 5
+-
+ablehnen, lehne x ab, nein, 4, 4
+wechsle zur satelitenansicht, 4, 4
+wechsle zur Straßenkarte, 3, 4
+akzeptieren, ja, 4, 4
+wechsle zum nächsten markierten punkt/stelle, wechsle den standort, 2, 2
+wechsle zu dem standort davor, wechsle zurück, zeige mirden vorheigen standort, 2, 2
+norde die karte ien, richte die karte aus, drehe die karte, ausrichten, 5, 5
+bewege die karte nach unten, nach unten, 5, 4
+zeige mir einen flacheren Sichtwinkel auf die karte, 2, 3
+vergrößere die Karte, herein zommne, zoome in die karte herein, zeige mir eine vergrößrung der karte, 5, 5
+zeige mir das hilfe menü, hilfe, ich brauche hilfe, wie funktioniert x, 5, 5
+schlieeß das hilfe menü, ich brauche keine hilfe mehr, schließen, menü schließen, 5, 5
+beweg die karte nach oben rechts, 4, 4
+suche, 5, 5
+suche schließen, schließe die suche, suche beendet, 5, 5
+beweg die karte nach unten links, zeig mir den kartenauschnitt von.., zentriere die karte auf..., 4, 4
+vergrößere den kartenausschnitt, zoome herraus, zeige mir einen größeren ausschnitt, 5, 5
+zeige mir ergebis 4, zige mir ort d, zeige mir.., 4, 4
+zeige mir meine position, wo bin ich, zeige mir mich selbst, 3, 4
+beweg die karte nach rechts, -nach osten, 5, 5
+berechne mir die luftlinie von punkt a über punkt b zu punkt c, 1, 3
+zeige mir alle fahrradläden der region, 1, 2
+löschen, entferne alle webpunkte, entferne due suche, 3, 3

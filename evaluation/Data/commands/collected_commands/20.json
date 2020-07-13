@@ -1,0 +1,81 @@
+{
+    "actions": [{
+        "tag": "12",
+        "commands": ["Menue oeffnen"]
+    }, {
+        "tag": "13",
+        "commands": ["Menue schliessen"]
+    }, {
+        "tag": "4",
+        "commands": ["in die Karte zoomen"]
+    }, {
+        "tag": "8",
+        "commands": ["Blickwinkel auf die Karte veraendern"]
+    }, {
+        "tag": "21",
+        "commands": ["Distanz zu einem standort bestimmen"]
+    }, {
+        "tag": "2",
+        "commands": ["Karte nach Osten verschieben"]
+    }, {
+        "tag": "0",
+        "commands": []
+    }, {
+        "tag": "18",
+        "commands": ["auf meinem Standort zoomen"]
+    }, {
+        "tag": "24",
+        "commands": []
+    }, {
+        "tag": "3",
+        "commands": ["Karte nach Suedwesten verschieben"]
+    }, {
+        "tag": "19",
+        "commands": ["Karten Modus wechseln"]
+    }, {
+        "tag": "20",
+        "commands": ["Karten Modus wechseln"]
+    }, {
+        "tag": "1",
+        "commands": ["Karte nach Sueden verschieben"]
+    }, {
+        "tag": "16",
+        "commands": ["Suchleiste oeffnen"]
+    }, {
+        "tag": "17",
+        "commands": ["Suchleiste schliessen"]
+    }, {
+        "tag": "25",
+        "commands": ["ablehnen"]
+    }, {
+        "tag": "5",
+        "commands": ["aus der Karte zoomen"]
+    }, {
+        "tag": "22",
+        "commands": []
+    }, {
+        "tag": "23",
+        "commands": []
+    }, {
+        "tag": "14",
+        "commands": ["Hilfe oeffnen"]
+    }, {
+        "tag": "15",
+        "commands": ["Hilfe schliessen"]
+    }, {
+        "tag": "9",
+        "commands": ["Karte nach Norden ausrichten"]
+    }, {
+        "tag": "6",
+        "commands": ["Karte nach Norden ausrichten"]
+    }, {
+        "tag": "10",
+        "commands": ["Standort markieren"]
+    }, {
+        "tag": "11",
+        "commands": ["gespeicherte Standorte loeschen"]
+    }, {
+        "tag": "26",
+        "commands": ["zu einem gespeicherten Standort auf der Karte springen"]
+    }]
+}

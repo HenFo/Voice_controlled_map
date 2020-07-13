@@ -1,0 +1,26 @@
+Vogelperspetive anzeigen, 5, 5
+Hilfe anzeigen, 5, 5
+Hilfe ausblenden, Hlfe schließen, , 5
+Karte drehen, Karte im Uhrzeigersinn dreheen, Karte rorierne, 5, 5
+Nutzerbdeingungen akzeptieren, bestätigen, akzeptieren, 4, 4
+Nach norden ausrichten, karte nachn orden ausrichten, 4, 5
+Karte nach Südosten bewegen, kartenausschnitt nach x bewegen, 5, 5
+Karte nach westen bewegen, 5, 5
+in die karte zoomen, heran zoomen, hinein zoomen, luupe plus, 5, 5
+x ablehnen, 5, 5
+auf/in sateliten ansicht wechseln, 5, 5
+kartenansicht umschalten, satelitenansicht verlassen, in schematische Kartendarstellung wechseln, 4, 5
+distanz messen, distanzmarker setzen, 4, 5
+Menü aufrufen, menü anzeigen, menü einblenden, 5, 5
+Menü uaslblenden , menü schließen, menü verbergen, 5, 5
+Suche anzeigen, Suchfeld öffnen, Suche einblenden, 5, 5
+Suche verbergen, suche schließen, zurück zur karte, karte fokusieren, karte in den vordergrund, 5, 5
+Karte nach x bewegen, 5, 5
+nächster Ort, nächste auswahl, nähter punkt in der liste, weiter, vorwärts, 5, 5
+zurück, letzter ort, vorheriger ort, vorherigen ort anzeigen, vorheriger punkt in der liste, 5, 5
+ort markieren, stecknadel setzen, ort speichern, 5, 5
+orte löschen, stecknadeln löschen, karteninhalte zurücksetzen, leeren, eigene karteninhalte leeren, 5, 5
+Karte nach s+den beweegn, 5, 5
+heraus zoomen, aus karte heraus zoomen, kartenauschnitt verkleinern, 5, 5
+zu Kartenpunkt bringen, zu kartenpunkt wechseln, auf kartenpukt zoomen, kartenpunkt zentrieren, zu stecknadel gehen, 4, 5
+ort auswählen, ort selektieren, 5, 5

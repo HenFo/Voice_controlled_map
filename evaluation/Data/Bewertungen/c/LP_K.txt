@@ -1,0 +1,26 @@
+scrollen, 2,2
+nach rechts verschieben, 4, 5
+suche, 4, 4
+suche schließen, 3, 4
+rein zoomen, zoomen, 4, 5
+menü uafrufen, 3,4
+menü schließen, 3, 5
+hilfe aufrufen, hilfe, 3, 3
+Hiole schließen, 4, 2
+Norden, 4, 3
+Satelitkarte, 4,3
+Sädtekarte, Straßenkarte, 2,3
+Stabdort bestimmen, orten,3,4
+Karte drehen, 3,4
+x ablehnen, 4,4
+karte kippen, 4,3
+raus zoomen, 5,4
+eregbnis auswählen, 3,3
+x zustimmen, 4,4
+Karte nach Norden verschieben, 3,4
+nächstes ergebnis, 3,4
+vorheriges ergebnis, 4,4
+entfernung bestimmen, entfernung zwischen zwei orten bestimmen, 4,5
+karte verschieben, 4,3
+Orte suchen, 4,3
+Suchverlauf löschen, 3,4

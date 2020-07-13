@@ -1,0 +1,27 @@
+swipe nach links, 3, 1
+gehe richtung südwesten, 2, 3
+setze neuen webpunkt, 4, 5
+lösche alle webpunkte, 5, 5
+herein zoomen, zoome hinein, 5,4
+neige den betrahtungswinkel, flache ansicht, 3, 3
+akzeotiere die x, akteotieren, 4, 5
+herraus zoomen, zoome herraus, 5,4
+ansicht um 90 grad drehen, drehe ansicht, 4, 2
+satelitenansicht, zeige eine realistische karte, 4, 4
+zeige eine allgeneine Karte, zeige eine wegkarte, 3, 3
+gehe zum nächsten wegpubkt, nähster wegpunkt, 4, 4
+vorheriger wegpunkt, letzen wegpüunkt auswöhlen, 4, 4
+karte um 45 grad drehen, drehe die karte nach links um 45 grad, 4, 3
+hilfe, butte helfen sie mir, 5, 5
+hilfe ausblenden, zurück zur karte, 5, 5
+an meine position heran zoomen, finde meine position, 4, 5
+verschiebe mich auf der x-achse nach recht, nach rechts gehen, 3, 3
+suche, suchfunktion, 4, 5
+suchfunktion aus, zurück zur karte, 5,5
+zoome nach rechts unten, bewege dcih nach recht unten, 4, 4
+setze zwei punkt und messe die distanz, vergleiche die distanz zwochen gesetzten punkten, 2, 2
+menü, blende das menü ein, 5,5
+blend das menp aus, geh zurück zur karte, 5,5
+wähle wegpunkt und zoome ran, wegpunkt auswählen und ran zoomen, 3, 4
+bewege dich auf der y-achse nach unten , bewege dch richtung süden, 4,4
+ablehnen, 5,5

@@ -1,0 +1,26 @@
+öffne das Suchfenster, 5, 5
+schließe das Suchfenster, 5, 5
+dreh die Karte, 3, 4
+öffne das Menü, 5, 4
+schließe das Menü, 5,4
+x ablehnen, 4, 5
+x bestätigen, 5,5
+Karte in rihtung nordwest drehen, 2, 1
+Karte nach links schieben, 4, 3
+raus zoomen, 5, 5
+ziel 4 auswählen, öffne ort d, 4, 5
+wechsel zur Satelitenansicht, 5,5
+wechsel zur Kartenansicht, 5,5
+wechsel in 3d ansicht, 3, 3
+Stecknadel setzen, 3, 5
+alle stecknadeln löschen, 5,5
+Kartee verschieben nach unten rechts, 3, 2
+nächste Möglichkeit, 2, 4
+zurück, 5, 4
+meninen standort anzeigen, 5,5
+Karte nach rechts/(links) verschieben, Karte nach westen schieben, 4, 3
+rein zoomen, 5, 5
+Punkte verbinden, Luftlinie angeben, 4, 4
+Karte nach südwest verschieben, Karte in Richtung südwest verschieben, 4, 3
+Hilfe öffnen, 5,5
+Hilfe schließen, 5,5

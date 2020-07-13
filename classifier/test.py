@@ -1,77 +1,72 @@
-from sklearn.feature_extraction.text import CountVectorizer
-from classifier import RNN, FFNN, Fuzzy_Classifier
+from nltk.tokenize import word_tokenize
+from nltk.stem.snowball import GermanStemmer
+from keras.models import load_model
 import json
-import os, sys
-import pandas as pd
-from preprocessing import normalize_command
+import os
 import numpy as np
-from sklearn.metrics import confusion_matrix, accuracy_score
-from keras.callbacks import EarlyStopping
-from keras.utils import to_categorical
+import pandas as pd
 
 os.chdir("classifier")
-# load data
-with open(os.path.join("Data", "commands", "combined_training_data.json"), "rt") as f:
-    data = json.load(f)
 
-# sw = pd.read_csv(os.path.join("Data", "stopwords.txt"), sep="\n", header=None)
+path = os.path.join("Data", "models", "rnn_conflict_free")
+model_name = "rnn_intent_classification.h5"
 
-# sw = set(sw.values.reshape(-1,))
-cv = CountVectorizer()
+with open(os.path.join(path, "char_to_int.json"), "rt") as f:
+    char_to_int = json.load(f)
+with open(os.path.join(path, "int_to_char.json"), "rt") as f:
+    int_to_char = json.load(f)
+with open(os.path.join(path, "tag_to_int.json"), "rt") as f:
+    tag_to_int = json.load(f)
+with open(os.path.join(path, "int_to_tag.json"), "rt") as f:
+    int_to_tag = json.load(f)
+with open(os.path.join("Data", "class_tag.csv"), "rt") as f:
+    class_tag = pd.read_csv(f)
 
-# documents = [" ".join(doc) for doc in data.values()]
-# cv.fit(documents)
+print(int_to_tag)
 
-chars = set()
-for commands in data.values():
-    for command in commands:
-        for char in command:
-            chars.add(char)
+max_length = 30
+def transform_command(command:str):
+    output = []
+    i = 0
+    for char in reversed(command):
+        if i >= max_length:
+            break
 
+        i += 1
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# neural_net = FFNN()
-
-# tags = sorted(list(data.keys()))
-# X, y, y_normal = [], [], []
-# pos_to_tag = {}
-# for i, tag in enumerate(tags):
-#     for command in data.get(tag):
-#         X.append(cv.transform([command]).toarray().reshape(-1,))
-#         y.append(to_categorical(i, len(tags)))
-#         y_normal.append(i)
-#     pos_to_tag[i] = tag
-
-# X = np.array(X)
-# y = np.array(y)
-# y_normal = np.array(y_normal)
+        char = char.lower()
+        try:
+            bag = np.zeros(len(char_to_int))
+            bag[char_to_int[char]] = 1
+            output.append(bag)
+        except KeyError:
+            continue
+    
+    while len(output) < max_length:
+        output.append(np.zeros(len(char_to_int)))
+    
+    return np.array(output)
 
 
-# input_shape = X.shape[1:]
-# output_size = y.shape[1]
+model = load_model(os.path.join(path, model_name))
 
-# neural_net.build(input_shape, output_size)
+stemmer = GermanStemmer()
+while True:
+    c = input("Your Input:")
 
-# # earlyStopping = EarlyStopping(monitor="loss", min_delta=0.005, restore_best_weights=True, patience=10)
-# neural_net.fit(X, y, epochs=50, batch_size = 16)
+    if c == "q":
+        break
 
-# predict = neural_net.predict(X)
-# locations = np.argmax(predict, 1)
 
-# print(confusion_matrix(y_normal, locations))
-# print(accuracy_score(y_normal, locations))
+    c = " ".join(sorted([stemmer.stem(x) for x in word_tokenize(c.lower())]))
+
+    c = np.array([transform_command(c)])
+    prediction = model.predict(c)
+
+    out_index = np.argmax(prediction)
+
+    print(f"acc: {prediction[0, out_index]}")
+
+    real_tag = int_to_tag[str(out_index)]
+    print(real_tag)
+    print(f"tag: {class_tag[class_tag.Class == int(real_tag)].Tag}")

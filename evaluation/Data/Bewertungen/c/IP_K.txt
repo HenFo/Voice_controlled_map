@@ -1,0 +1,26 @@
+zoome raus rotiere die karte und zentriere die karte, 4,3
+berechne die distanz zwischen den drei pukten und gibr mir id teildistanzen, 4,5
+verneine die Benutzerbedingungen, 5,5
+suche, 5,5
+-
+setze die drei Punkt in der Krte, setze einen Punkt, setze den Punkt dort hin, 5,4
+lösche alle pukte aus der karte, 5,5
+ändere von topographischer karte zu Bilddaten, 5,5
+ändere von blddaten zu topogrsphischer karte, 5,5
+bewege die karte nach südwesten, 2,5
+akzeptiere die x, 5,5
+zeige mir meinen nächsten Pubkt, 5,4
+zeige mir meinen orherigen Punkt, 5,4
+zoome raus, 5,5
+bewege die karte nach süden, 5,5
+zoome rein, 5,5
+bewege die karte anch südoseten, 5,5
+Hilfe, 5,5
+Hilfe, 4,3
+kippe die akrte horizontal, 1,1
+wo bin ich, 5,5
+zoome auf ort c, 5,5
+rotiere die karte um 30 grad, 5,5
+beweg dei karte nach osten, 5,5
+menü, 5,5
+menü, 5,5

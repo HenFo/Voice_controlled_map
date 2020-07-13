@@ -1,0 +1,27 @@
+zeige mehr, geh nach osten, 3, 3
+zeige route mit zwischenstation, 4.5, 4
+lösche route, entferne route, 5,5
+gib mir suchoptionen, lass mich suchen, 3.5, 4
+-
+rotiere 45 Grad nach links, - nordwesten, 5,4.5
+gib luftliie mit zwischenetappen, 3,4
+zeige mir diesen Ort, 5, 4
+zeige mir diesen Ort, 5, 4
+lehne bedingung ab, 5,5
+wechsel auf satelitenbild, 5,5
+-
+nächster Pubnkt,nächster standort, 3.5, 3.5
+geh zurück, 3.5,3.5
+Wähle ort 3 aus /suchergebnis 3, 4,5
+zeig mir hilfe an, hife, 4,5
+-
+zeig mir menü, menp, 4.5, 5
+-
+richte nach norden aus, 5,5
+zeige mir den Ort, 5,5
+zoom rein, 5,5
+wechsle vogelperspektive richtung norden, 3,4
+zoom raus, 5,5
+akzeptiere x, annehmen, 5,5
+lokalisiere mih, wo bin ich, 5,5
+

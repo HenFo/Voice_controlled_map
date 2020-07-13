@@ -1,0 +1,26 @@
+verschiebe die Karte, 2, 1
+Lösche ziele, 4, 4
+öfne menü, 5, 4
+schließe menü, 4, 5
+gehe zu ort d, 2, 5
+gehe nach links unten, 3, 3
+Öffne Hilfe, 5, 5
+schließe Hilfe, 5,5
+richte karte nach Norden aus, 2, 4
+drehe Karte anch links, 2, 3
+lehne benutzerbd ab, 2, 3
+öffne Suche, 5,5
+schließe Suche, 5,5
+verschiebe karte nach links, 4, 4
+zentriere den nächsten Punkt, 2, 3
+gehe zum letzten Punkt, 2, 3
+nehme x an, 4, 5
+zoome, 5,5
+zeig standort, 4,4
+verkleinere, 4,4
+berechne luftlinie von punkt a zu  b, 4,4
+wechsel in horizontale perspektive, 3, 2
+gehe nach süden, 5,5
+zeige satelitenbild, 5,5
+zeige Kartenansicht, 5,5
+gehe nach südosten, 4,4

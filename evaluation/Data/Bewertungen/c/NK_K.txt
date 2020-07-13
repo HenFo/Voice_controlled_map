@@ -1,0 +1,26 @@
+perspektive, 2, 4
+nach unten scrollen, 5, 5
+anch links drehen, 5, 5
+ziel markieren, 2, 4
+ziel löschen, 1, 3
+x bestätigen, 3, 5
+nach links unten verschieben, 3, 4
+x ablehnen, 5,5
+entfernung berechnen, 2, 4
+Hilfemenü öffnen, 5,5
+Hilfemnü ausblenden, 4,5
+nach rechts oben verschieben, 4,5
+Karte einnorden, 3, 4
+zweites ergebnis auswählen, 2,4
+rauszoomen, 4,5
+reinzoomen, 4,5
+standprt zeigen, 5,5
+menü öffnen, 5,5
+menp schließen, 5,5
+nach oben, 3,4
+nächstes ziel anzeigen, 1,3
+vorheriges Ziel anzeigen, 4,4
+suche öffnen, 4,5
+suche schließen, 4,5
+satelitenkarte einblenden, 4,5
+satelitenkarte ausblenden, 4,5
