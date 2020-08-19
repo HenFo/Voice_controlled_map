@@ -4,10 +4,10 @@
         "commands": ["zoome naeher ran"]
     }, {
         "tag": "22",
-        "commands": ["verschiebe die Karte nach rechts"]
+        "commands": []
     }, {
         "tag": "23",
-        "commands": ["verschiebe die Karte nach links"]
+        "commands": []
     }, {
         "tag": "18",
         "commands": ["zoome auf meinen Standort"]

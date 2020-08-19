@@ -58,7 +58,7 @@
         "commands": ["Standardansicht zurueckbringen", "Kartenansicht Standard", "zurueck auf Anfang", "kartenausrichtung Norden"]
     }, {
         "tag": "0",
-        "commands": ["Karte nach links bewegen", "Karte nach Westen bewegen"]
+        "commands": ["Karte nach x bewegen", "Karte nach x bewegen"]
     }, {
         "tag": "18",
         "commands": ["meinen Standort anzeigen", "meinen Standort details", "meinen Standort reinzoomen", "zeige mich", "wo bin ich"]

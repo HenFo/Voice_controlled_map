@@ -1,0 +1,348 @@
+{
+    "N": {
+        "commands": [
+            ["mehr zeig", 4],
+            ["nord nach scroll", 2],
+            ["kart nord beweg nach", 2],
+            ["auf der mich nach oben verschieb y-achs", 1],
+            ["kart nach oben schieb", 1],
+            ["nach oben verschieb", 1]
+        ],
+        "total_collected_commands": 21,
+        "individual_command_count": 16
+    },
+    "O": {
+        "commands": [
+            ["ost nach scroll", 4],
+            ["kart ost beweg nach", 2],
+            ["kart beweg nach recht", 1],
+            ["nach recht verschieb", 1],
+            ["ost nach verschieb", 1],
+            ["ost geh nach", 1]
+        ],
+        "total_collected_commands": 19,
+        "individual_command_count": 15
+    },
+    "S": {
+        "commands": [
+            ["kart sued beweg nach", 2],
+            ["sued nach scroll", 2],
+            ["nach unt verschieb", 1],
+            ["sued nach verschieb", 1],
+            ["kart nach unt verschieb", 1],
+            ["kart sued die nach verschieb", 1],
+            ["kart sued beweg die nach", 1]
+        ],
+        "total_collected_commands": 17,
+        "individual_command_count": 15
+    },
+    "W": {
+        "commands": [
+            ["west nach scroll", 4],
+            ["kart west beweg nach", 2],
+            ["kart west beweg die nach", 1],
+            ["kart west die nach verschieb", 1],
+            ["west nach verschieb", 1],
+            ["link nach verschieb", 1]
+        ],
+        "total_collected_commands": 19,
+        "individual_command_count": 15
+    },
+    "NO": {
+        "commands": [
+            ["kart verschieb", 4],
+            ["link nach swip", 2],
+            ["nordost nach", 2],
+            ["nordost nach scroll", 1],
+            ["kart nach oben recht verschieb", 1],
+            ["nach oben recht verschieb", 1]
+        ],
+        "total_collected_commands": 21,
+        "individual_command_count": 16
+    },
+    "SO": {
+        "commands": [
+            ["suedost nach", 2],
+            ["kart nach recht unt verschieb", 1],
+            ["geh nach recht unt", 1],
+            ["suedost geh nach", 1],
+            ["kart suedost nach verschieb", 1],
+            ["kart suedost beweg die nach", 1],
+            ["kart suedost beweg nach", 1]
+        ],
+        "total_collected_commands": 15,
+        "individual_command_count": 14
+    },
+    "SW": {
+        "commands": [
+            ["nach recht swip", 2],
+            ["suedw nach", 2],
+            ["kart beweg die link nach unt", 1],
+            ["kart suedw auf beweg der dich nach", 1],
+            ["kart suedw beweg die nach", 1],
+            ["link nach unt verschieb", 1],
+            ["30 7 kartenausschnitt uhr den nach verschieb", 1]
+        ],
+        "total_collected_commands": 17,
+        "individual_command_count": 15
+    },
+    "NW": {
+        "commands": [
+            ["nordw nach", 2],
+            ["curs nordw beweg nach", 1],
+            ["link nach oben verschieb", 1],
+            ["geh link nach oben", 1],
+            ["kart beweg die link nach oben", 1],
+            ["kart nordw beweg die nach", 1],
+            ["beweg ausfuehr nordwest", 1]
+        ],
+        "total_collected_commands": 15,
+        "individual_command_count": 14
+    },
+    "16": {
+        "commands": [
+            ["such", 6],
+            ["oeffn such", 3],
+            ["suchfen oeffn", 2]
+        ],
+        "total_collected_commands": 19,
+        "individual_command_count": 10
+    },
+    "17": {
+        "commands": [
+            ["schliess such", 5],
+            ["such die schliess", 2],
+            ["beend such", 2]
+        ],
+        "total_collected_commands": 17,
+        "individual_command_count": 10
+    },
+    "4": {
+        "commands": [
+            ["reinzoom", 6],
+            ["kart die in zoom", 3],
+            ["rein zoom", 2]
+        ],
+        "total_collected_commands": 19,
+        "individual_command_count": 10
+    },
+    "12": {
+        "commands": [
+            ["menu oeffn", 7],
+            ["menu das mir zeig", 3],
+            ["menu aufruf", 3]
+        ],
+        "total_collected_commands": 20,
+        "individual_command_count": 7
+    },
+    "13": {
+        "commands": [
+            ["menu schliess", 7],
+            ["menu das schliess", 3]
+        ],
+        "total_collected_commands": 14,
+        "individual_command_count": 5
+    },
+    "14": {
+        "commands": [
+            ["hilf", 7],
+            ["hilf oeffn", 4]
+        ],
+        "total_collected_commands": 20,
+        "individual_command_count": 11
+    },
+    "15": {
+        "commands": [
+            ["hilf schliess", 8],
+            ["hilf die schliess", 2]
+        ],
+        "total_collected_commands": 16,
+        "individual_command_count": 7
+    },
+    "23": {
+        "commands": [
+            ["zurueck", 4],
+            ["geh zurueck", 1],
+            ["standort spring vorher zum", 1],
+            ["standort davor dem wechsel zu", 1],
+            ["ergebnis vorher", 1],
+            ["punkt den mir vorher zeig", 1]
+        ],
+        "total_collected_commands": 17,
+        "individual_command_count": 14
+    },
+    "9": {
+        "commands": [
+            ["kart die dreh", 4],
+            ["ansicht dreh", 2],
+            ["kart nord aus die nach richt", 2],
+            ["kart nord ausricht nach", 2],
+            ["kart einnord", 1]
+        ],
+        "total_collected_commands": 21,
+        "individual_command_count": 15
+    },
+    "19": {
+        "commands": [
+            ["satellitenansicht wechsel zur", 2],
+            ["kart modus wechseln", 2],
+            ["satellit wechsel zu", 1],
+            ["kart kart aend die geolog zu", 1],
+            ["kart satellitenbild als die mir zeig", 1],
+            ["satellitenansicht zeig", 1],
+            ["satellitenansicht auf wechseln", 1],
+            ["satellitenbild auf wechsel", 1],
+            ["satellitenaufnahm", 1]
+        ],
+        "total_collected_commands": 20,
+        "individual_command_count": 18
+    },
+    "20": {
+        "commands": [
+            ["standardkart die zeig", 1],
+            ["bilddat kart aend topograph von zu", 1],
+            ["strassenkart wechsel zu", 1],
+            ["hintergrund kart staedtenam strass aend auf dem den die man sieht und", 1],
+            ["kartenansicht wechsel zur", 1],
+            ["kartenansicht umschalt", 1],
+            ["kartenansicht", 1],
+            ["strassenkart wechsel zur", 1],
+            ["kart allgemein eine zeig", 1]
+        ],
+        "total_collected_commands": 17,
+        "individual_command_count": 17
+    },
+    "18": {
+        "commands": [
+            ["standort zeig", 3],
+            ["standort anzeig meinen", 2],
+            ["standort bestimm", 1],
+            ["kart standort auf den der zeig", 1],
+            ["position an heranzoom meine", 1],
+            ["standort aktuell anzeig", 1],
+            ["standort find meinen", 1]
+        ],
+        "total_collected_commands": 18,
+        "individual_command_count": 15
+    },
+    "6": {
+        "commands": [
+            ["kart dreh", 3],
+            ["uhrzeigersinn den dreh gegen", 2],
+            ["kart uhrzeigersinn den die dreh gegen", 1],
+            ["dreh link nach", 1],
+            ["kart richtung dreh in nordw", 1],
+            ["drehung uhrzeigersinn gegen", 1]
+        ],
+        "total_collected_commands": 16,
+        "individual_command_count": 13
+    },
+    "25": {
+        "commands": [
+            ["ablehn", 11]
+        ],
+        "total_collected_commands": 18,
+        "individual_command_count": 5
+    },
+    "8": {
+        "commands": [
+            ["kart die neig", 2],
+            ["vogelperspektiv anzeig", 1],
+            ["perspektiv horizontal in wechsel", 1],
+            ["kart kipp die horizontal", 1],
+            ["nord richtung vogelperspektiv wechsel", 1],
+            ["ansicht kipp", 1],
+            ["blickwinkel kart auf die veraend", 1],
+            ["kart kipp", 1],
+            ["betrachtungswinkel den neig", 1]
+        ],
+        "total_collected_commands": 18,
+        "individual_command_count": 17
+    },
+    "5": {
+        "commands": [
+            ["rauszoom", 5],
+            ["herauszoom", 4],
+            ["zoom raus", 2]
+        ],
+        "total_collected_commands": 19,
+        "individual_command_count": 10
+    },
+    "26": {
+        "commands": [
+            ["ort auswaehl x", 2],
+            ["ort geh x zu", 2],
+            ["ergebnis auswaehl x", 2],
+            ["wegpunkt ran und waehl x zoom", 1],
+            ["ort mir x zeig", 1],
+            ["ergebnis x zeig", 1],
+            ["ort aus waehl x", 1]
+        ],
+        "total_collected_commands": 18,
+        "individual_command_count": 15
+    },
+    "24": {
+        "commands": [
+            ["akzepti", 9],
+            ["bestaet", 5]
+        ],
+        "total_collected_commands": 18,
+        "individual_command_count": 5
+    },
+    "22": {
+        "commands": [
+            ["ort naech", 2],
+            ["standort naech spring zum", 1],
+            ["punkt naech", 1],
+            ["position wechsel", 1],
+            ["stell markiert naech wechsel zur", 1],
+            ["kart die nach recht verschieb", 1],
+            ["ziel anzeig naech", 1],
+            ["punkt den naech zentri", 1]
+        ],
+        "total_collected_commands": 16,
+        "individual_command_count": 15
+    },
+    "21": {
+        "commands": [
+            ["entfern mess", 2],
+            ["luftlini berechn die mir", 1],
+            ["distanz bestimm einem standort zu", 1],
+            ["entfern die mir zeig", 1],
+            ["punkt verbind", 1],
+            ["streck absteck", 1],
+            ["distanz punkt die mess setz und zwei", 1],
+            ["a b mess nach von", 1]
+        ],
+        "total_collected_commands": 16,
+        "individual_command_count": 15
+    },
+    "10": {
+        "commands": [
+            ["standort marki", 2],
+            ["mark setz", 1],
+            ["standort setz", 1],
+            ["punkt den marki", 1],
+            ["ort such", 1],
+            ["punkt einen setz", 1],
+            ["kart ort auf der marki", 1]
+        ],
+        "total_collected_commands": 15,
+        "individual_command_count": 14
+    },
+    "11": {
+        "commands": [
+            ["ziel loesch", 2],
+            ["kart ort der die entfern von", 1],
+            ["kart punkt den der entfern von", 1],
+            ["standort gespeichert loesch", 1],
+            ["ergebnis loesch", 1],
+            ["ort den loesch markiert", 1],
+            ["suchverlauf loesch", 1],
+            ["ort diesen loesch", 1],
+            ["standort loesch", 1]
+        ],
+        "total_collected_commands": 19,
+        "individual_command_count": 18
+    }
+}

@@ -51,9 +51,6 @@
         "tag": "20",
         "commands": ["Karten Modus wechseln"]
     }, {
-        "tag": "1",
-        "commands": ["Karte nach Sueden verschieben"]
-    }, {
         "tag": "16",
         "commands": ["Suchleiste oeffnen"]
     }, {

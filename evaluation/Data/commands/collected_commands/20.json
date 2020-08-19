@@ -16,7 +16,7 @@
         "commands": ["Distanz zu einem standort bestimmen"]
     }, {
         "tag": "2",
-        "commands": ["Karte nach Osten verschieben"]
+        "commands": ["Karte nach x verschieben"]
     }, {
         "tag": "0",
         "commands": []
@@ -28,7 +28,7 @@
         "commands": []
     }, {
         "tag": "3",
-        "commands": ["Karte nach Suedwesten verschieben"]
+        "commands": ["Karte nach x verschieben"]
     }, {
         "tag": "19",
         "commands": ["Karten Modus wechseln"]
@@ -37,7 +37,7 @@
         "commands": ["Karten Modus wechseln"]
     }, {
         "tag": "1",
-        "commands": ["Karte nach Sueden verschieben"]
+        "commands": ["Karte nach x verschieben"]
     }, {
         "tag": "16",
         "commands": ["Suchleiste oeffnen"]
@@ -64,10 +64,10 @@
         "commands": ["Hilfe schliessen"]
     }, {
         "tag": "9",
-        "commands": ["Karte nach Norden ausrichten"]
+        "commands": ["Karte nach x ausrichten"]
     }, {
         "tag": "6",
-        "commands": ["Karte nach Norden ausrichten"]
+        "commands": ["Karte nach x ausrichten"]
     }, {
         "tag": "10",
         "commands": ["Standort markieren"]

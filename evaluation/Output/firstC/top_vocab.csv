@@ -1,0 +1,24 @@
+Tag,Kommando,#Nennungen
+pan1,kart nach verschieb x,4
+showSearch,such,6
+hideSearch,schliess such,5
+ZoomIn,reinzoom,6
+showMenu,menu oeffn,7
+hideMenu,menu schliess,7
+showHelp,hilf,7
+hideHelp,hilf schliess,8
+previous,zurueck,4
+resetView,kart die dreh,4
+satelite,satellitenansicht wechsel zur,2
+streets,kart wechsl zu,1
+location,standort zeig,3
+rotate45,kart dreh,3
+reject,ablehn,11
+pitch,kart die neig,2
+ZoomOut,rauszoom,5
+selectSingle,ergebnis auswaehl x,2
+accept,akzepti,9
+next,ort naech,2
+measureDistance,entfern mess,2
+addMarker,standort marki,2
+removeMarker,ziel loesch,2

@@ -81,9 +81,6 @@
         "tag": "18",
         "commands": ["zeige mir meine Position", "wo bin ich", "zeige mir mich selbst"]
     }, {
-        "tag": "0",
-        "commands": ["bewege die Karte nach rechts"]
-    }, {
         "tag": "21",
         "commands": ["berechne mir die Luftlinie"]
     }, {

@@ -1,0 +1,282 @@
+{
+    "0": {
+        "commands": [
+            ["kart beweg x", 16],
+            ["kart verschieb x", 11],
+            ["geh x", 8],
+            ["scroll x", 7]
+        ],
+        "total_collected_commands": 81,
+        "individual_command_count": 32
+    },
+    "16": {
+        "commands": [
+            ["such", 6],
+            ["suchfen oeffn", 3],
+            ["oeffn such", 3]
+        ],
+        "total_collected_commands": 23,
+        "individual_command_count": 12
+    },
+    "17": {
+        "commands": [
+            ["schliess such", 6],
+            ["beend such", 3],
+            ["such schliess", 3]
+        ],
+        "total_collected_commands": 23,
+        "individual_command_count": 11
+    },
+    "4": {
+        "commands": [
+            ["reinzoom", 6],
+            ["kart zoom", 3],
+            ["zoom", 3],
+            ["heranzoom", 2],
+            ["rein zoom", 2]
+        ],
+        "total_collected_commands": 30,
+        "individual_command_count": 19
+    },
+    "12": {
+        "commands": [
+            ["menu oeffn", 9],
+            ["menu", 5]
+        ],
+        "total_collected_commands": 25,
+        "individual_command_count": 8
+    },
+    "13": {
+        "commands": [
+            ["menu schliess", 11]
+        ],
+        "total_collected_commands": 16,
+        "individual_command_count": 5
+    },
+    "14": {
+        "commands": [
+            ["hilf", 9],
+            ["hilf oeffn", 5]
+        ],
+        "total_collected_commands": 26,
+        "individual_command_count": 10
+    },
+    "15": {
+        "commands": [
+            ["hilf schliess", 11],
+            ["hilf beend", 2]
+        ],
+        "total_collected_commands": 24,
+        "individual_command_count": 11
+    },
+    "23": {
+        "commands": [
+            ["zurueck", 4],
+            ["ort vorher", 2],
+            ["wechsl zurueck", 1],
+            ["geh zurueck", 1],
+            ["standort vorher", 1],
+            ["ort spring zurueck", 1],
+            ["standort spring vorher", 1],
+            ["position alt geh zurueck", 1],
+            ["standort davor wechsel", 1]
+        ],
+        "total_collected_commands": 25,
+        "individual_command_count": 21
+    },
+    "9": {
+        "commands": [
+            ["kart nord richt", 3],
+            ["nord ausricht", 2],
+            ["kart nord", 2],
+            ["kart einnord", 2],
+            ["nord richt", 1],
+            ["ansicht dreh", 1],
+            ["standardansicht zurueckbring", 1]
+        ],
+        "total_collected_commands": 22,
+        "individual_command_count": 17
+    },
+    "6": {
+        "commands": [
+            ["kart dreh", 6],
+            ["uhrzeigersinn dreh gegen", 2],
+            ["45 grad kart dreh um", 2],
+            ["kart roti", 2],
+            ["dreh link", 1]
+        ],
+        "total_collected_commands": 25,
+        "individual_command_count": 17
+    },
+    "19": {
+        "commands": [
+            ["satellitenansicht wechsel", 3],
+            ["satellitenansicht", 1],
+            ["satellit wechsel", 1],
+            ["satellitenansicht wechseln", 1],
+            ["kart aend bilddat topograph", 1],
+            ["satellitenkart einblend", 1],
+            ["satellitenbild zeig", 1],
+            ["satellitenansicht zeig", 1],
+            ["satellitenbild wechsel", 1]
+        ],
+        "total_collected_commands": 20,
+        "individual_command_count": 18
+    },
+    "20": {
+        "commands": [
+            ["strassenkart wechsel", 2],
+            ["kartenansicht", 1],
+            ["satellitenansicht verlass", 1],
+            ["kart wechsl", 1],
+            ["kartenansicht umschalt", 1],
+            ["kart digital zeig", 1],
+            ["kart weg zeig", 1],
+            ["kart digital wechseln", 1],
+            ["kart allgemein zeig", 1],
+            ["kartendarstell anderer wechseln", 1],
+            ["hintergrund kart staedtenam strass aend man sieht", 1],
+            ["ansicht kart gezeichnet veraend", 1]
+        ],
+        "total_collected_commands": 24,
+        "individual_command_count": 23
+    },
+    "18": {
+        "commands": [
+            ["standort zeig", 3],
+            ["position zeig", 2],
+            ["standort anzeig meinen", 2],
+            ["standort find meinen", 1],
+            ["ort", 1],
+            ["standort meinem zoom", 1],
+            ["kart standort zeig", 1],
+            ["mich selbst zeig", 1],
+            ["standort anzeig", 1],
+            ["position find", 1]
+        ],
+        "total_collected_commands": 26,
+        "individual_command_count": 22
+    },
+    "25": {
+        "commands": [
+            ["ablehn", 11]
+        ],
+        "total_collected_commands": 18,
+        "individual_command_count": 4
+    },
+    "24": {
+        "commands": [
+            ["akzepti", 9],
+            ["bestaet", 6]
+        ],
+        "total_collected_commands": 21,
+        "individual_command_count": 7
+    },
+    "8": {
+        "commands": [
+            ["kart neig", 2],
+            ["kart kipp", 1],
+            ["bildausschnitt horizontal", 1],
+            ["ausblick mehr", 1],
+            ["perspektiv", 1],
+            ["ansicht flach", 1],
+            ["ansichtswinkel wechsel", 1],
+            ["bildausschnitt kipp", 1],
+            ["kart kipp horizontal", 1],
+            ["anzeig mehr", 1],
+            ["kartenansichtswinkel veraend", 1]
+        ],
+        "total_collected_commands": 23,
+        "individual_command_count": 22
+    },
+    "5": {
+        "commands": [
+            ["rauszoom", 5],
+            ["herauszoom", 4],
+            ["kart heraus zoom", 2],
+            ["heraus zoom", 2]
+        ],
+        "total_collected_commands": 24,
+        "individual_command_count": 14
+    },
+    "26": {
+        "commands": [
+            ["ort geh x", 2],
+            ["ergebnis auswaehl x", 2],
+            ["ort auswaehl x", 2],
+            ["ort x zeig", 1],
+            ["ergebnis kart bestimmt zoom", 1],
+            ["wegpunkt auswaehl ranzoom x", 1],
+            ["wegpunkt ran waehl x zoom", 1],
+            ["ort vergroessert x zeig", 1]
+        ],
+        "total_collected_commands": 21,
+        "individual_command_count": 18
+    },
+    "22": {
+        "commands": [
+            ["ort naech", 2],
+            ["stell markiert naech wechsel", 1],
+            ["wegpunkt geh naech", 1],
+            ["ergebnis naech", 1],
+            ["punkt markiert naech wechsel", 1],
+            ["moeglich naech", 1],
+            ["wegpunkt naech", 1],
+            ["punkt naech zeig", 1],
+            ["position wechsel", 1],
+            ["a b spring", 1],
+            ["standort wechsel", 1]
+        ],
+        "total_collected_commands": 22,
+        "individual_command_count": 21
+    },
+    "21": {
+        "commands": [
+            ["entfern mess", 2],
+            ["luftlini berechn", 2],
+            ["entfern bestimm", 1],
+            ["distanz bestimm standort", 1],
+            ["distanz punkt mess setz zwei", 1],
+            ["distanz mess", 1],
+            ["entfern", 1],
+            ["luftlini angeb", 1],
+            ["entfern ort bestimm zwei zwischen", 1]
+        ],
+        "total_collected_commands": 21,
+        "individual_command_count": 19
+    },
+    "10": {
+        "commands": [
+            ["stecknadel setz", 2],
+            ["standort marki", 2],
+            ["punkt marki", 1],
+            ["markier setz", 1],
+            ["wegpunkt neu setz", 1],
+            ["kart ort aktuell marki", 1],
+            ["ort diesen marki", 1],
+            ["punkt dorthin setz", 1],
+            ["ort speich", 1]
+        ],
+        "total_collected_commands": 20,
+        "individual_command_count": 18
+    },
+    "11": {
+        "commands": [
+            ["ziel loesch", 2],
+            ["ort loesch", 1],
+            ["kart punkt alle loesch", 1],
+            ["standort gespeichert loesch", 1],
+            ["wegpunkt alle loesch", 1],
+            ["markier loesch", 1],
+            ["karteninhalt eig leer", 1],
+            ["stecknadeln alle loesch", 1],
+            ["ort diesen loesch", 1],
+            ["wegpunkt alle entfern", 1],
+            ["stecknadeln loesch", 1],
+            ["rout loesch", 1],
+            ["wegpunkt loesch", 1]
+        ],
+        "total_collected_commands": 27,
+        "individual_command_count": 26
+    }
+}

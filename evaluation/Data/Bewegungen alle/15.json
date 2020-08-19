@@ -89,8 +89,5 @@
     }, {
         "tag": "13",
         "commands": ["schliesse das Menue"]
-    }, {
-        "tag": "0",
-        "commands": ["scrolle nach Norden"]
     }]
 }

@@ -33,9 +33,6 @@
         "tag": "4",
         "commands": ["zoome rein"]
     }, {
-        "tag": "1",
-        "commands": ["geh nach Norden"]
-    }, {
         "tag": "22",
         "commands": ["wechsel position"]
     }, {

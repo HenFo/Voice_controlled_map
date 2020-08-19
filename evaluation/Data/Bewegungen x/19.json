@@ -16,7 +16,7 @@
         "commands": []
     }, {
         "tag": "6",
-        "commands": ["rotiere 45 Grad nach links", "und ihre 45° nach Nordwesten"]
+        "commands": ["rotiere 45 Grad nach links", "und ihre 45 Grad nach Nordwesten"]
     }, {
         "tag": "21",
         "commands": []

@@ -58,7 +58,7 @@
         "commands": ["Suchfunktion aus", "zurueck zur Karte"]
     }, {
         "tag": "2",
-        "commands": ["zoome nach x unten", "beweg dich nach x unten"]
+        "commands": ["zoome nach x", "beweg dich nach x"]
     }, {
         "tag": "21",
         "commands": ["setze zwei Punkte und messe die Distanz"]

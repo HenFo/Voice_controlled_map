@@ -55,7 +55,7 @@
         "commands": ["suche schliessen", "suche beenden"]
     }, {
         "tag": "2",
-        "commands": ["bewege die Karte nach unten links"]
+        "commands": ["bewege die Karte nach x"]
     }, {
         "tag": "5",
         "commands": ["vergroessere den Kartenausschnitt", "zoome heraus", "zeige mir einen groesseren Ausschnitt"]

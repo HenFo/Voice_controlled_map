@@ -1,0 +1,1737 @@
+{
+    "0": [{
+        "c": "scroll",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "nach verschieb x",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "kart nach verschieb x",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "kart verschieb",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "nach scroll x",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "kart auf beweg der dich nach x",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "kart nach schieb x",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "kart nach verschieb x",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "kart suedw beweg die nach",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "kart beweg die nach x",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "nach verschieb x",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "nach x",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "geh nach x",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "nach scroll x",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "nach scroll x",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "nach verschieb x",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "nach x",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "nach swip x",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "auf der mich nach verschieb x x-achs",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "nach x zoom",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "auf beweg der dich nach x y-achs",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "kartenausschnitt den nach verschieb x",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "mehr zeig",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "kart beweg nach x",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "curs beweg nach x",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "kart nach verschieb x",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "nach scroll x",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "kart nordost auf der geh nach",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "kart die nach verschieb x",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "geh nach x",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "kart nach verschieb x",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "sued geh nach",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "kart beweg nach x",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "kart beweg die nach x",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "beweg ausfuehr x",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "kart beweg x",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "kart beweg nach x",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "kart anzeig nach x",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "nach x",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "16": [{
+        "c": "such",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "such",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "suchfen das oeffn",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "such",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "suchfen oeffn",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "suchfen oeffn",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "such die oeffn",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "oeffn such",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "such",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "funktion eine ich moecht such",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "suchoption gib mir",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "suchfeld oeffn",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "suchleist oeffn",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "such die oeffn",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "oeffn such",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "anzeig such",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "such",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "oeffn such",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "such",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "17": [{
+        "c": "schliess such",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "such die schliess",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "suchfen das du schliess",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "suchfen schliess",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "suchfen schliess",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "such die schliess",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "schliess such",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "suchfunktion aus",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "such beend die ich moecht",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "beend such",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "suchleist schliess",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "schliess such",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "such schliess",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "such verberg",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "schliess such",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "beend such",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "schliess such",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "4": [{
+        "c": "reinzoom",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "kart die hinein in zoom",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "reinzoom",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "rein zoom",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "reinzoom",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "rein zoom",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "naeh ran zoom",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "reinzoom",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "hereinzoom",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "kartenausschnitt den in zoom",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "zoom rein",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "reinzoom",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "kart die in zoom",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "kart die in zoom",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "zoom",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "kart die in zoom",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "kart die vergroess",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "zoom",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "reinzoom",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "12": [{
+        "c": "menu aufruf",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "das menu oeffn",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "das menu oeffn",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "menu",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "menu oeffn",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "menu oeffn",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "menu an das zeig",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "menu oeffn",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "blend menu das ein",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "menu das mir zeig",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "menu das mir zeig",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "menu oeffn",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "menu oeffn",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "menu oeffn",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "menu oeffn",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "menu aufruf",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "menu das mir zeig",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "menu aufruf",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "menu",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "13": [{
+        "c": "menu schliess",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "menu das schliess",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "menu das schliess",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "menu",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "menu schliess",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "menu das schliess",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "menu schliess",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "blend menu aus das",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "menu das entfern",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "menu schliess",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "menu schliess",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "menu schliess",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "menu schliess",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "menu ausblend",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "menu ausblend",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "14": [{
+        "c": "hilf aufruf",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "hilf",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "hilf oeffn",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "hilf",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "hilf oeffn",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "hilf zeig",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "hilf an die zeig",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "hilf menu oeffn",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "hilf",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "brauch hilf ich",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "hilf an die mir zeig",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "hilf",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "hilf oeffn",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "hilf die oeffn",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "hilf oeffn",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "hilf anzeig",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "hilf menu das mir zeig",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "hilf",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "hilf",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "15": [{
+        "c": "hilf schliess",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "hilf die schliess",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "hilf schliess",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "hilf",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "hilf schliess",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "hilf schliess",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "hilf die schliess",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "hilf menu ausblend",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "hilf ausblend",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "hilf brauch ich keine mehr",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "hilf beend",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "hilf schliess",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "hilf schliess",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "hilf schliess",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "hilf ausblend",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "hilf menu das schliess",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "zurueck",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "hilf schliess",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "9": [{
+        "c": "nord",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "kart die dreh",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "kart die dreh",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "kart kart zoom die die raus roti und zentri",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "kart nord",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "kart nord aus die nach richt",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "kart einnord",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "ansicht dreh",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "nord aus nach richt",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "nord orientier nach",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "kart ausricht nach x",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "kart nord aus die nach richt",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "kart nord aus nach richt",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "nord ausricht nach",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "kart die ein nord",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "standardansicht zurueckbring",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "einnord",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "19": [{
+        "c": "satellitenkart",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "satellitenansicht zeig",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "satellitenansicht wechsel zur",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "kart aend bilddat topograph von zu",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "satellitenaufnahm",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "satellit wechsel zu",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "kart kart aend die geolog zu",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "satellitenkart einblend",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "satellitenansicht",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "kart satellitenbild als die mir zeig",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "satellitenbild auf wechsel",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "satellitenansicht wechsel zu",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "kart modus wechseln",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "satellitenbild aend auf den kartenhintergrund",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "satellitenbild zeig",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "satellitenansicht auf wechseln",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "satellitenansicht wechsel zur",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "satellitenbild anzeig",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "satellitenbild",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "20": [{
+        "c": "staedtekart",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "standardkart die zeig",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "kartenansicht wechsel zur",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "bilddat kart aend topograph von zu",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "grafikmodus wechseln",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "kart wechsl zu",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "ansicht kart die gezeichnet veraend zu",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "satellitenkart ausblend",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "kart allgemein eine zeig",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "kart kart als die mir normal zeig",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "strassenkart wechsel zu",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "kart modus wechseln",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "hintergrund kart staedtenam strass aend auf dem den die man sieht und",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "kartenansicht zeig",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "kartenansicht umschalt",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "strassenkart wechsel zur",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "auto strassennetz mir zeig",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "kartenansicht",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "18": [{
+        "c": "standort bestimm",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "standort find meinen",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "standort anzeig meinen",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "bin ich wo",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "standort aktuell anzeig",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "standort zeig",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "standort auf meinen zoom",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "standort zeig",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "position an heranzoom meine",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "befind ich mich wo",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "lokalisi mich",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "standort meinem spring zu",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "standort auf meinem zoom",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "kart standort auf den der zeig",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "standort zeig",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "position meine mir zeig",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "standort anzeig meinen",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "standort anzeig mein",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "6": [{
+        "c": "kart dreh",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "kart die dreh",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "kart richtung dreh in nordw",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "kart die roti",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "uhrzeigersinn den dreh gegen",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "ansicht dreh",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "kart die dreh",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "dreh link nach",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "45 grad kart dreh um",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "kart uhrzeigersinn den die dreh gegen",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "3d ansicht ansicht form kipp die einer hint in nach",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "45 grad link nach roti",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "drehung uhrzeigersinn gegen",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "kart ausricht nach x",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "blickricht kart aus die in meine richt",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "kart dreh link nach",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "kart dreh",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "45 grad kart die dreh um",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "kart dreh",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "uhrzeigersinn den dreh gegen",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "25": [{
+        "c": "ablehn",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "verweig",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "ablehn",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "vernein",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "ablehn",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "stimm nicht zu",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "ab lehn",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "ablehn",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "ablehn",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "ab lehn",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "ablehn",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "ablehn",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "ab lehn",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "ab lehn",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "ablehn",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "ablehn",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "ablehn",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "ablehn",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "8": [{
+        "c": "kart kipp",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "kart die neig",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "3d ansicht in wechsel",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "kart kipp die horizontal",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "3d modus",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "ansicht kipp",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "kartenansichtswinkel den veraend",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "perspektiv",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "betrachtungswinkel den neig",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "nord richtung vogelperspektiv wechsel",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "ansichtswinkel wechsel",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "blickwinkel kart auf die veraend",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "kart die neig",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "perspektiv horizontal in wechsel",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "vogelperspektiv anzeig",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "kart sichtwinkel auf die einen flach mir zeig",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "bildausschnitt kipp",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "perspektiv wechseln",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "5": [{
+        "c": "rauszoom",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "kart aus der heraus zoom",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "rauszoom",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "zoom raus",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "herauszoom",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "raus zoom",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "kart aus der raus zoom",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "rauszoom",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "herauszoom",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "kartenausschnitt einen groess mir zeig",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "zoom raus",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "rauszoom",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "kart aus der zoom",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "kart aus der zoom",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "verklein",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "herauszoom",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "kartenausschnitt den vergroess",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "herauszoom",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "rauszoom",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "26": [{
+        "c": "ergebnis auswaehl x",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "ort geh x zu",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "ziel auswaehl x",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "ort auf x zoom",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "ort anzeig x",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "ergebnis x zeig",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "ergebnis zoom auf das",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "ergebnis auswaehl x",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "wegpunkt ran und waehl x zoom",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "ort mir vergroessert x zeig",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "ort aus waehl x",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "standort x zeig",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "kart standort auf der einem gespeichert spring zu",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "ergebnis kart auf auf bestimmt der ein zoom",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "ort geh x zu",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "ort auswaehl x",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "ort mir x zeig",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "ort auswaehl x",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "24": [{
+        "c": "zustimm",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "akzepti",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "bestaet",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "akzepti",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "bestaet",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "stimm zu",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "stimm zu",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "bestaet",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "akzepti",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "akzepti",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "akzepti",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "akzepti",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "akzepti",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "an nehm",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "akzepti",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "akzepti",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "bestaet",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "bestaet",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "22": [{
+        "c": "ergebnis naech",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "a b nach spring von",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "moeglich naech",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "punkt den mir naech zeig",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "position wechsel",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "ziel anzeig naech",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "wegpunkt naech",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "punkt naech",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "standort naech spring zum",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "ort naech",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "punkt den naech zentri",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "ort naech",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "stell markiert naech wechsel zur",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "standort geh naech zum",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "weiter",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "23": [{
+        "c": "ergebnis vorher",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "ort dem spring zu zurueck",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "zurueck",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "punkt den mir vorher zeig",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "position alt geh zur zurueck",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "ziel anzeig vorher",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "vorher wegpunkt",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "geh zurueck",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "standort spring vorher zum",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "ort vorher",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "punkt geh letzt zum",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "zurueck",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "standort davor dem wechsel zu",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "zurueckgeh",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "zurueck",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "21": [{
+        "c": "entfern bestimm",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "entfern die miss",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "punkt verbind",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "distanz punkt teildistanz berechn den die die drei gib mir und zwischen",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "streck absteck",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "entfern mess",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "entfern berechn",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "distanz punkt die mess setz und zwei",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "entfern die mir zeig",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "entfern mess",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "distanz bestimm einem standort zu",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "luftlini berechn",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "distanz mess",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "luftlini berechn die mir",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "distanz absteck",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "a b mess nach von",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "10": [{
+        "c": "ort such",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "ort diesen marki",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "stecknadel setz",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "punkt einen setz",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "wegpunkt setz",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "standort setz",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "punkt den marki",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "ziel marki",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "wegpunkt neu setz",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "standort marki",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "standort marki",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "kart ort auf der marki",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "kart die verschieb",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "ort marki",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "mark setz",
+        "penalty": 0,
+        "proband": 19
+    }],
+    "11": [{
+        "c": "suchverlauf loesch",
+        "penalty": 0,
+        "proband": 1
+    }, {
+        "c": "ort diesen loesch",
+        "penalty": 0,
+        "proband": 2
+    }, {
+        "c": "stecknadeln alle loesch",
+        "penalty": 0,
+        "proband": 3
+    }, {
+        "c": "kart punkt alle aus der loesch",
+        "penalty": 0,
+        "proband": 4
+    }, {
+        "c": "wegpunkt loesch",
+        "penalty": 0,
+        "proband": 5
+    }, {
+        "c": "standort loesch",
+        "penalty": 0,
+        "proband": 6
+    }, {
+        "c": "kart punkt den der entfern von",
+        "penalty": 0,
+        "proband": 7
+    }, {
+        "c": "ziel loesch",
+        "penalty": 0,
+        "proband": 8
+    }, {
+        "c": "wegpunkt alle loesch",
+        "penalty": 0,
+        "proband": 9
+    }, {
+        "c": "kart ort der die entfern von",
+        "penalty": 0,
+        "proband": 10
+    }, {
+        "c": "rout loesch",
+        "penalty": 0,
+        "proband": 11
+    }, {
+        "c": "standort alle loesch",
+        "penalty": 0,
+        "proband": 12
+    }, {
+        "c": "standort gespeichert loesch",
+        "penalty": 0,
+        "proband": 13
+    }, {
+        "c": "ort den loesch markiert",
+        "penalty": 0,
+        "proband": 14
+    }, {
+        "c": "ziel loesch",
+        "penalty": 0,
+        "proband": 15
+    }, {
+        "c": "ort loesch",
+        "penalty": 0,
+        "proband": 16
+    }, {
+        "c": "loesch",
+        "penalty": 0,
+        "proband": 17
+    }, {
+        "c": "ergebnis loesch",
+        "penalty": 0,
+        "proband": 18
+    }, {
+        "c": "markier loesch",
+        "penalty": 0,
+        "proband": 19
+    }]
+}
